@@ -1,0 +1,91 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+
+html {
+  /*  Default font size is 16px. so 1rem is 16px*/
+  font-size: 16px;
+  /* 1rem = 16px */
+  font-family: apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  /* height: 100%; */
+}
+
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  /* height: 100%; */
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  5. Remove default list styles
+*/
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  /* list-style: none; */
+}
+
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/*
+  7. set a default font for all elements
+  (❗ heading level should not be used for styling purposes ❗)
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  max-width: 75ch;
+  /* font-size: 1rem; */
+  /* font-weight: initial; */
+  /* margin: 30px; */
+}
+
+/*  8. Remove default anchor styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}

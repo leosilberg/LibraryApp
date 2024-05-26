@@ -1,8 +1,3 @@
-# LibraryApp
-
-## Data
-
-### db.json
 {
   "books": [
     {
@@ -26,36 +21,3 @@
     }
   ]
 }
-
-## CSS
-
-### variables.css
-
-### styles.css
-
-
-## JS
-
-### localAPI.js
-url:String http://localhost:8001
-
-### googleAPI.js
-
-### main.js
-
-
-
-## HTML
-
-      | Book Name
-image | Authors 
-      | Num Pages ISBN
-      | Categories
-      | short desctiption
-      | - Num Copies +
-
-
-### index.html
-
-### newbook.html
-
