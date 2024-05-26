@@ -33,6 +33,10 @@
 
 ### styles.css
 
+book__card -div
+book__image - img
+book__name - p
+book__authors -div
 
 ## JS
 
