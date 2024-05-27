@@ -1,3 +1,8 @@
+
+let localHostUrl = "http://localhost:8001/";
+function addNewBook(book) {
+  return axios.post(localHostUrl + "books", book);
+}
 let pageNum = 1;
 url = `http://localhost:8001/books`;
 bookGrid = document.querySelector(".book-grid");

@@ -4,12 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/variables.css" />
@@ -21,19 +20,24 @@
         <ul>
           <li>Home</li>
           <li>History</li>
+          <li>Add New Book</li>
         </ul>
       </nav>
-      <div class="search-bar">
-        <input type="text" id="search" placeholder="Search..." />
-        <i class="fa-solid fa-magnifying-glass fa-xl" onclick="search()"></i>
-      </div>
     </header>
     <main>
-      <div class="book__grid"></div>
-      <div class="pagination">
-        <i class="fa-solid fa-chevron-left"></i>
-        <p id="currentPage">1</p>
-        <i class="fa-solid fa-chevron-right"></i>
+      <div class="book__container">
+        <img class="book__image" />
+        <div class="book__details">
+          <h1 class="book__name"></h1>
+          <div class="book__authors"></div>
+          <p class="book__description"></p>
+          <div class="book__categories"></div>
+          <div class="flex">
+            <p class="book__pages"></p>
+            <p class="book__ISBN"></p>
+          </div>
+          <div class="book__actions"></div>
+        </div>
       </div>
     </main>
     <script
@@ -45,6 +49,6 @@
     <script src="./js/main.js"></script>
     <script src="./js/localAPI.js"></script>
     <script src="./js/googleAPI.js"></script>
-    <script src="./js/newbook.js"></script>
+    <script src="./js/bookdetails.js"></script>
   </body>
 </html>
