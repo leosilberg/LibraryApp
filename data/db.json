@@ -1,23 +1,11 @@
 {
-  "books": [
-    {
-      "id": 1,
-      "bookName": "",
-      "authorsName": [],
-      "numPages": 1,
-      "shortDescription": "",
-      "image": "",
-      "numCopies": 1,
-      "categories": [],
-      "ISBN": ""
-    }
-  ],
+  "books": [],
   "history": [
     {
-        "id":"",
-        "operation":"",
-        "time":1235464325,
-        "bookName":""
+      "id": "",
+      "operation": "",
+      "time": 1235464325,
+      "bookName": ""
     }
   ]
 }

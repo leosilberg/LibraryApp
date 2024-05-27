@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/variables.css" />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -18,7 +24,31 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <div class="book__container">
+        <img class="book__image" />
+        <div class="book__details">
+          <h1 class="book__name"></h1>
+          <div class="book__authors"></div>
+          <p class="book__description"></p>
+          <div class="book__categories"></div>
+          <div class="flex">
+            <p class="book__pages"></p>
+            <p class="book__ISBN"></p>
+          </div>
+          <div class="book__actions"></div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js"
+      integrity="sha512-JSCFHhKDilTRRXe9ak/FJ28dcpOJxzQaCd3Xg8MyF6XFjODhy/YMCM8HW0TFDckNHWUewW+kfvhin43hKtJxAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="./js/main.js"></script>
+    <script src="./js/localAPI.js"></script>
+    <script src="./js/googleAPI.js"></script>
+    <script src="./js/bookdetails.js"></script>
   </body>
 </html>
