@@ -35,11 +35,15 @@ function filtrBySearch() {
 
 function addBookToGrid(book) {
   const newBookDiv = document.createElement("div");
+  newBookDiv.addEventListener("mouseover", (event) => {
+    console.log("Mouse in (over)");
+  });
   newBookDiv.className = "book";
   newBookDiv.innerHTML = `
     <img class="book-img" src=${book.image} alt="" />
     <p class="book-name">${book.bookName}</p>
     <p class="author">by ${book.authorsName[0]}</p>
+    <div class="hiddenDiv">
     <p class="numCopies">${book.numCopies}</p>
     <button onclick="updateNumCoppies(this,${
       book.id
@@ -51,13 +55,14 @@ function addBookToGrid(book) {
     <button onclick="updateNumCoppies(this,${
       book.id
     },-1)" class="reduceCopy">-</button>
+    </div>
     `;
   bookGrid.appendChild(newBookDiv);
 }
 function updateNumCoppies(_this, id, change) {
   event.preventDefault();
 
-  const elem = _this.parentNode.querySelector(".numCopies");
+  const elem = _this.parentNode.parentNode.querySelector(".numCopies");
   const currentNumCopies = parseInt(elem.innerText);
   if (currentNumCopies == 0 && change == "-1") return;
   elem.innerText = currentNumCopies + parseInt(change);

@@ -19,3 +19,7 @@
   height: 300px;
   width: 200px;
 }
+.hiddenDiv {
+  visibility: hidden;
+  /* transform: translate(y); */
+}
