@@ -1,6 +1,5 @@
 let pageNum = 1;
 url = `http://localhost:8001/books`;
-favoritefilter = "";
 bookGrid = document.querySelector(".book-grid");
 function getPageNum(currentPageNum) {
   pageNum = currentPageNum;
@@ -12,27 +11,29 @@ function disableButtons(pages) {
   if (pageNum == 1) document.querySelector(".BackPage").disabled = true;
   else document.querySelector(".BackPage").disabled = false;
 }
-function displayBookOnGrid(userSearch = "") {
+function displayBookOnGrid() {
   //   url = `http://localhost:8001/books?_page=${pageNum}&_per_page=5`;
   bookGrid.innerHTML = "";
-  if (document.querySelector(".favoritesSelector").checked)
-    favoritefilter = "&favorite=true";
-  else favoritefilter = "";
+  console.log(
+    `${url}?_page=${pageNum}&_per_page=5${searchFilter()}${favoritesFilter()}`
+  );
   axios
-    .get(`${url}?_page=${pageNum}&_per_page=5${favoritefilter}`)
+    .get(
+      `${url}?_page=${pageNum}&_per_page=5${searchFilter()}${favoritesFilter()}`
+    )
     .then(function (response) {
       disableButtons(response.data.pages);
-      response.data.data.forEach((book) => addToTable(book));
+      response.data.data.forEach((book) => addBookToGrid(book));
     })
     .catch(function (error) {
       console.error("Error fetching data:", error);
     });
 }
 function filtrBySearch() {
-  userSearch = document.querySelector(".search-bar").value;
-  displayBookOnGrid(userSearch);
+  displayBookOnGrid();
 }
-function addToTable(book) {
+
+function addBookToGrid(book) {
   const newBookDiv = document.createElement("div");
   newBookDiv.className = "book";
   newBookDiv.innerHTML = `
@@ -75,7 +76,14 @@ function changeFavorite(_this, id) {
   else axios.patch(`${url}/${id}`, { favorite: "false" });
 }
 function showFavorites() {
-  //   if (document.querySelector(".favoritesSelector").checked)
-  //     url += "?favorite=true";
   displayBookOnGrid();
+}
+function searchFilter() {
+  search = `&bookName=${document.querySelector(".search-bar").value}`;
+  return search.trim() || "";
+}
+function favoritesFilter() {
+  if (document.querySelector(".favoritesSelector").checked)
+    return "&favorite=true";
+  return "";
 }

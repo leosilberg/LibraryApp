@@ -2,7 +2,7 @@
   "books": [
     {
       "id": "1",
-      "favorite": "true",
+      "favorite": "false",
       "bookName": "The Great Gatsby",
       "authorsName": [
         "F. Scott Fitzgerald"
@@ -49,7 +49,7 @@
         "Classic"
       ],
       "ISBN": "9780061120084",
-      "favorite": "false"
+      "favorite": "true"
     },
     {
       "id": "4",
@@ -77,7 +77,7 @@
       "numPages": 214,
       "shortDescription": "A story about teenage rebellion and angst.",
       "image": "https://images.penguinrandomhouse.com/cover/9780316769488",
-      "numCopies": 5,
+      "numCopies": 7,
       "categories": [
         "Fiction",
         "Classic"
