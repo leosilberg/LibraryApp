@@ -1,0 +1,21 @@
+.book-grid {
+  margin-inline: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 50px;
+  font-size: 14px;
+}
+.book {
+  text-align: center;
+}
+.book-name {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.book-author {
+  font-size: 0.9rem;
+}
+.book-img {
+  height: 300px;
+  width: 200px;
+}
