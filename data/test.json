@@ -1,0 +1,157 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "favorite": "false",
+      "bookName": "The Great Gatsby",
+      "authorsName": [
+        "F. Scott Fitzgerald"
+      ],
+      "numPages": 180,
+      "shortDescription": "A novel about the American dream, set in the 1920s.",
+      "image": "https://images.penguinrandomhouse.com/cover/9780743273565",
+      "numCopies": 11,
+      "categories": [
+        "Fiction",
+        "Classic"
+      ],
+      "ISBN": "9780743273565"
+    },
+    {
+      "id": "2",
+      "bookName": "1984",
+      "authorsName": [
+        "George Orwell"
+      ],
+      "numPages": 328,
+      "shortDescription": "A dystopian novel set in a totalitarian society under constant surveillance.",
+      "image": "https://images.penguinrandomhouse.com/cover/9780451524935",
+      "numCopies": 7,
+      "categories": [
+        "Fiction",
+        "Dystopian"
+      ],
+      "ISBN": "9780451524935",
+      "favorite": "true"
+    },
+    {
+      "id": "3",
+      "bookName": "To Kill a Mockingbird",
+      "authorsName": [
+        "Harper Lee"
+      ],
+      "numPages": 281,
+      "shortDescription": "A novel about racial injustice in the Deep South.",
+      "image": "https://images.penguinrandomhouse.com/cover/9780061120084",
+      "numCopies": 7,
+      "categories": [
+        "Fiction",
+        "Classic"
+      ],
+      "ISBN": "9780061120084",
+      "favorite": "true"
+    },
+    {
+      "id": "4",
+      "bookName": "Pride and Prejudice",
+      "authorsName": [
+        "Jane Austen"
+      ],
+      "numPages": 279,
+      "shortDescription": "A romantic novel that critiques the British landed gentry at the end of the 18th century.",
+      "image": "https://images.penguinrandomhouse.com/cover/9781503290563",
+      "numCopies": 0,
+      "categories": [
+        "Fiction",
+        "Romance"
+      ],
+      "ISBN": "9781503290563",
+      "favorite": "false"
+    },
+    {
+      "id": "5",
+      "bookName": "The Catcher in the Rye",
+      "authorsName": [
+        "J.D. Salinger"
+      ],
+      "numPages": 214,
+      "shortDescription": "A story about teenage rebellion and angst.",
+      "image": "https://images.penguinrandomhouse.com/cover/9780316769488",
+      "numCopies": 7,
+      "categories": [
+        "Fiction",
+        "Classic"
+      ],
+      "ISBN": "9780316769488",
+      "favorite": "true"
+    },
+    {
+      "id": "6",
+      "bookName": "Moby-Dick",
+      "authorsName": [
+        "Herman Melville"
+      ],
+      "numPages": 635,
+      "shortDescription": "A novel about the quest to capture the elusive white whale, Moby Dick.",
+      "image": "https://images.penguinrandomhouse.com/cover/9781503280786",
+      "numCopies": 2,
+      "categories": [
+        "Fiction",
+        "Adventure"
+      ],
+      "ISBN": "9781503280786",
+      "favorite": "false"
+    },
+    {
+      "id": "7",
+      "bookName": "War and Peace",
+      "authorsName": [
+        "Leo Tolstoy"
+      ],
+      "numPages": 1225,
+      "shortDescription": "A novel that intertwines the lives of five families during the Napoleonic Wars.",
+      "image": "https://images.penguinrandomhouse.com/cover/9781400079988",
+      "numCopies": 3,
+      "categories": [
+        "Fiction",
+        "Historical"
+      ],
+      "ISBN": "9781400079988",
+      "favorite": "true"
+    },
+    {
+      "id": "8",
+      "bookName": "The Hobbit",
+      "authorsName": [
+        "J.R.R. Tolkien"
+      ],
+      "numPages": 310,
+      "shortDescription": "A fantasy novel about the journey of Bilbo Baggins.",
+      "image": "https://images.penguinrandomhouse.com/cover/9780547928227",
+      "numCopies": 9,
+      "categories": [
+        "Fiction",
+        "Fantasy"
+      ],
+      "ISBN": "9780547928227",
+      "favorite": "false"
+    },
+    {
+      "id": "9",
+      "bookName": "Crime and Punishment",
+      "authorsName": [
+        "Fyodor Dostoevsky"
+      ],
+      "numPages": 671,
+      "shortDescription": "A psychological novel about the moral dilemmas of a young man.",
+      "image": "https://images.penguinrandomhouse.com/cover/9780486415871",
+      "numCopies": 4,
+      "categories": [
+        "Fiction",
+        "Philosophical"
+      ],
+      "ISBN": "9780486415871",
+      "favorite": "false"
+    }
+  ]
+}

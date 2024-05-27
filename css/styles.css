@@ -99,3 +99,18 @@ nav ul {
   display: flex;
   gap: 0.5rem;
 }
+
+.book {
+  text-align: center;
+}
+.book-name {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.book-author {
+  font-size: 0.9rem;
+}
+.book-img {
+  height: 300px;
+  width: 200px;
+}

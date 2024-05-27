@@ -18,7 +18,21 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <input type="text" class="search-bar" />
+      <button class="Submit" onclick="filtrBySearch()">Submit</button>
+      <input
+        type="checkbox"
+        onclick="showFavorites()"
+        class="favoritesSelector"
+      />
+      show favorites
+      <div class="book-grid"></div>
+      <button onclick="goToNextPage()" class="NextPage">next</button>
+      <button onclick="goToBackPage()" class="BackPage">back</button>
+    </main>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="./js/localAPI.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
