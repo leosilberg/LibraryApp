@@ -14,8 +14,16 @@ elemSearchInput.addEventListener("keypress", function (event) {
 });
 
 function disablePagesButtons(links) {
-  document.querySelector(".NextPage").disabled = !links.includes("next");
-  document.querySelector(".BackPage").disabled = !links.includes("prev");
+  document.querySelector(".NextPage").style.pointerEvents = links.includes(
+    "next"
+  )
+    ? "all"
+    : "none";
+  document.querySelector(".BackPage").style.pointerEvents = links.includes(
+    "prev"
+  )
+    ? "all"
+    : "none";
 }
 
 async function displayBookOnGrid() {
