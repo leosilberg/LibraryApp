@@ -60,7 +60,7 @@ function updateNumCoppiesToJson(id, currentNumCopies, change) {
   });
 }
 function changeBookFavorite(id, bool) {
-  return axios.patch(`${url}/${id}`, { favorite: bool == "true" ? "true" : "false" });
+  return axios.patch(`${url}/${id}`, { favorite: bool ? "false" : "true" });
 }
 function deleteBookFromLirary(id) {
   return axios.delete(`${LOCAL_URL}books/${id}`);

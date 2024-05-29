@@ -12,8 +12,9 @@
         "1"
       ],
       "numPages": "1",
-      "numCopies": "1",
-      "ISBN": ""
+      "numCopies": 4,
+      "ISBN": "",
+      "favorite": "true"
     },
     {
       "id": "3dd2",
@@ -48,7 +49,7 @@
       "numPages": 225,
       "shortDescription": "Finding new, safe ways to consume food has become complicated as people become more health conscious about the foods they put into their bodies. This work offers information on the field of altering foods for human consumption. It describes the differences between synthetic, engineered, irradiated, and organic foods.",
       "image": "http://books.google.com/books/content?id=F29kaFKuJdMC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73s0znji-Wp6eHz1vGdXyT0Ir09OP7CXc6F8IFbEVpi2uhTqSkucwuW0pMRsXCuHZbWxzK8vCvA-R8PZjnsF7bc5YtDXliudt40Q_I4dSP1dRNnqWn0pIttozSjEXqvJ2hJ_N6N&source=gbs_api",
-      "numCopies": 1,
+      "numCopies": 3,
       "categories": [],
       "ISBN": "143810975X"
     },
@@ -67,7 +68,7 @@
         "1"
       ],
       "numPages": "1",
-      "numCopies": "11-1",
+      "numCopies": 4,
       "ISBN": ""
     },
     {
@@ -82,7 +83,7 @@
         "sdfdgh"
       ],
       "numPages": "1",
-      "numCopies": 2,
+      "numCopies": 3,
       "ISBN": "dsfgb"
     }
   ],
@@ -176,6 +177,66 @@
       "operation": "update",
       "time": 1716967869395,
       "bookName": "sdfgb"
+    },
+    {
+      "operation": "update",
+      "time": 1716971976811,
+      "bookName": "1",
+      "id": "fW5UX9W"
+    },
+    {
+      "operation": "update",
+      "time": 1716971977593,
+      "bookName": "1",
+      "id": "XtPnDgb"
+    },
+    {
+      "operation": "update",
+      "time": 1716971978610,
+      "bookName": "1",
+      "id": "R7XyCha"
+    },
+    {
+      "operation": "update",
+      "time": 1716971979704,
+      "bookName": "1",
+      "id": "izH6Aa-"
+    },
+    {
+      "operation": "update",
+      "time": 1716971980889,
+      "bookName": "1",
+      "id": "jVgffDV"
+    },
+    {
+      "operation": "update",
+      "time": 1716971981621,
+      "bookName": "1",
+      "id": "fwwQsqj"
+    },
+    {
+      "operation": "update",
+      "time": 1716971983013,
+      "bookName": "sdfgb",
+      "id": "kvDIZ3J"
+    },
+    {
+      "operation": "update",
+      "time": 1716971984944,
+      "bookName": "Food Chemistry",
+      "id": "TkS09FB"
+    },
+    {
+      "operation": "update",
+      "time": 1716971986444,
+      "bookName": "Food Chemistry",
+      "id": "KSfR8rT"
+    },
+    {
+      "operation": "update",
+      "time": 1716973013101,
+      "bookName": "1",
+      "id": "iu-vIY6"
     }
   ]
 }
