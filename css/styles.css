@@ -184,8 +184,9 @@ form input {
 }
 .book__actions {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
   justify-content: end;
+  align-items: center;
 }
 
 .book__grid {

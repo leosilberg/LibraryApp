@@ -59,8 +59,8 @@ function updateNumCoppiesToJson(id, currentNumCopies, change) {
     numCopies: parseInt(currentNumCopies) + parseInt(change),
   });
 }
-function changeBookFavorite(id, bool) {
-  return axios.patch(`${url}/${id}`, { favorite: bool == "true" ? "true" : "false" });
+function changeBookFavorite(id, favorite) {
+  return axios.patch(`${LOCAL_URL}books/${id}`, { favorite: favorite ? "false" : "true" });
 }
 function deleteBookFromLirary(id) {
   return axios.delete(`${LOCAL_URL}books/${id}`);

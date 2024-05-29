@@ -76,7 +76,10 @@ function updateNumCoppies(_this, id, change) {
   updateNumCoppiesToJson(id, currentNumCopies, change);
 }
 function changeFavorite(_this, id) {
-  changeBookFavorite(id, _this.className == "fa-regular fa-heart");
+  changeBookFavorite(
+    id,
+    _this.className == "fa-solid fa-heart"
+  )
 }
 
 function filterBySearch() {

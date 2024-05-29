@@ -30,7 +30,11 @@ async function displayBookDetails(id, type) {
         ? `
       <button onclick="addToLibrary()" class="button">Add to library</button>
   `
-        : `<div class="button-counter"><button class="button" onclick="updateCopies('-1')">-</button>
+        : `
+        <i class="fa-solid fa-trash" onclick="deleteBook('${book.id}')"></i>
+        <i class="fa-${book.favorite == "true" ? "solid" : "regular"} fa-heart"
+      onclick="changeFavorite(this,'${book.id}')"></i>
+        <div class="button-counter"><button class="button" onclick="updateCopies('-1')">-</button>
     <p>${book.numCopies}</p>
     <button class="button" onclick="updateCopies('1')">+</button></div>
     `;
@@ -46,13 +50,41 @@ async function addToLibrary() {
     queryParams.set("bookID", result.data.id);
     queryParams.set("type", "local");
     history.replaceState(null, null, "?" + queryParams.toString());
-  } catch (error) {}
+  } catch (error) {
+    console.log(error);
+  }
 }
 async function updateCopies(change) {
-  console.log(change)
+  if (book.numCopies == "0" && change == "-1") {
+    console.log("scadfv")
+    return;
+  }
   try {
-    const result=await updateNumCoppiesToJson(book.id, book.numCopies, change);
-    console.log(result)
+    const result = await updateNumCoppiesToJson(
+      book.id,
+      book.numCopies,
+      change
+    );
+    console.log(result);
+  } catch (error) {
+    console.log(error);
+  }
+}
+async function changeFavorite(_this, id) {
+  try {
+    const result = await changeBookFavorite(
+      id,
+      _this.className == "fa-solid fa-heart"
+    );
+  } catch (error) {
+    console.log(error);
+  }
+}
+async function deleteBook(id) {
+  try {
+    const result = await deleteBookFromLirary(id);
+    console.log(result);
+    location.assign(`/index.html`);
   } catch (error) {
     console.log(error);
   }
