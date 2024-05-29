@@ -332,7 +332,7 @@
         "nnvjwewnjr"
       ],
       "numPages": "432",
-      "numCopies": 223531,
+      "numCopies": 223533,
       "ISBN": "",
       "id": "oBE-g7E",
       "favorite": "true"
@@ -666,6 +666,18 @@
       "time": 1716988718089,
       "bookName": "mejsn",
       "id": "UDrlgFp"
+    },
+    {
+      "operation": "update",
+      "time": 1716989195739,
+      "bookName": "mejsn",
+      "id": "kyocV68"
+    },
+    {
+      "operation": "update",
+      "time": 1716989196506,
+      "bookName": "mejsn",
+      "id": "xzXmalE"
     }
   ]
 }

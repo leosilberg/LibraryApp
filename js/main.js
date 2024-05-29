@@ -54,10 +54,8 @@ function addBookToGrid(book) {
   });
   newBookDiv.className = "book__card";
   newBookDiv.innerHTML = `
-  <div class="book__hidden-container ">
-    <img class="book__image-card" src=${
-      book.image
-    } alt="" onclick="bookClicked('${book.id}')"/>
+  <div class="book__hidden-container " onclick="bookClicked('${book.id}')">
+    <img class="book__image-card" src=${book.image} alt="" />
     <div class="book__actions-card">
     <i class="fa-solid fa-trash" onclick="deleteBookFromLirary('${
       book.id
