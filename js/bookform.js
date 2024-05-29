@@ -3,10 +3,10 @@ const elemAuthors = document.querySelector("#authors");
 const elemCategories = document.querySelector("#categories");
 
 function addAuthor() {
-  elemAuthors.innerHTML += ` <input type="text" name="authorsName[${elemAuthors.childElementCount}]" value="1" required />`;
+  elemAuthors.innerHTML += ` <input type="text" name="authorsName[${elemAuthors.childElementCount}]" required />`;
 }
 function addCategory() {
-  elemCategories.innerHTML += ` <input type="text" name="categories[${elemCategories.childElementCount}]" value="1" required />`;
+  elemCategories.innerHTML += ` <input type="text" name="categories[${elemCategories.childElementCount}]" required />`;
 }
 async function init() {
   elemBookForm.addEventListener("submit", async (event) => {

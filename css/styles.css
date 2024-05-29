@@ -222,3 +222,12 @@ form input {
   height: 300px;
   width: 200px;
 }
+.img-hidden-div {
+  position: relative;
+}
+.hiddenDiv {
+  display: none;
+  position: absolute;
+  left: 40px;
+  /* align-items: center; */
+}

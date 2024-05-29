@@ -30,9 +30,9 @@ async function displayBookDetails(id, type) {
         ? `
       <button onclick="addToLibrary()" class="button">Add to library</button>
   `
-        : `<div class="button-counter"><button class="button">-</button>
+        : `<div class="button-counter"><button class="button" onclick="updateCopies('-1')">-</button>
     <p>${book.numCopies}</p>
-    <button class="button">+</button></div>
+    <button class="button" onclick="updateCopies('1')">+</button></div>
     `;
   } catch (error) {
     console.log(error);
@@ -47,6 +47,15 @@ async function addToLibrary() {
     queryParams.set("type", "local");
     history.replaceState(null, null, "?" + queryParams.toString());
   } catch (error) {}
+}
+async function updateCopies(change) {
+  console.log(change)
+  try {
+    const result=await updateNumCoppiesToJson(book.id, book.numCopies, change);
+    console.log(result)
+  } catch (error) {
+    console.log(error);
+  }
 }
 function init() {
   const queryString = window.location.search;

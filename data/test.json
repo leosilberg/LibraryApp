@@ -18,40 +18,6 @@
       "ISBN": "9780743273565"
     },
     {
-      "id": "2",
-      "bookName": "1984",
-      "authorsName": [
-        "George Orwell"
-      ],
-      "numPages": 328,
-      "shortDescription": "A dystopian novel set in a totalitarian society under constant surveillance.",
-      "image": "https://images.penguinrandomhouse.com/cover/9780451524935",
-      "numCopies": 7,
-      "categories": [
-        "Fiction",
-        "Dystopian"
-      ],
-      "ISBN": "9780451524935",
-      "favorite": "true"
-    },
-    {
-      "id": "3",
-      "bookName": "To Kill a Mockingbird",
-      "authorsName": [
-        "Harper Lee"
-      ],
-      "numPages": 281,
-      "shortDescription": "A novel about racial injustice in the Deep South.",
-      "image": "https://images.penguinrandomhouse.com/cover/9780061120084",
-      "numCopies": 7,
-      "categories": [
-        "Fiction",
-        "Classic"
-      ],
-      "ISBN": "9780061120084",
-      "favorite": "true"
-    },
-    {
       "id": "4",
       "bookName": "Pride and Prejudice",
       "authorsName": [
@@ -60,13 +26,13 @@
       "numPages": 279,
       "shortDescription": "A romantic novel that critiques the British landed gentry at the end of the 18th century.",
       "image": "https://images.penguinrandomhouse.com/cover/9781503290563",
-      "numCopies": 0,
+      "numCopies": 5,
       "categories": [
         "Fiction",
         "Romance"
       ],
       "ISBN": "9781503290563",
-      "favorite": "false"
+      "favorite": "true"
     },
     {
       "id": "5",
@@ -77,7 +43,7 @@
       "numPages": 214,
       "shortDescription": "A story about teenage rebellion and angst.",
       "image": "https://images.penguinrandomhouse.com/cover/9780316769488",
-      "numCopies": 7,
+      "numCopies": 5,
       "categories": [
         "Fiction",
         "Classic"
@@ -100,7 +66,7 @@
         "Adventure"
       ],
       "ISBN": "9781503280786",
-      "favorite": "false"
+      "favorite": true
     },
     {
       "id": "7",
@@ -117,7 +83,7 @@
         "Historical"
       ],
       "ISBN": "9781400079988",
-      "favorite": "true"
+      "favorite": "false"
     },
     {
       "id": "8",
@@ -151,7 +117,20 @@
         "Philosophical"
       ],
       "ISBN": "9780486415871",
-      "favorite": "false"
+      "favorite": "true"
+    },
+    {
+      "id": "0e84",
+      "bookName": "Harry's Book of Birds",
+      "authorsName": [
+        "Harry James Barlow"
+      ],
+      "numPages": 64,
+      "shortDescription": "",
+      "image": "http://books.google.com/books/content?id=ecvNfuaIfKQC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71c8XSpbSba4Z3EHGOq0hu9kgySR1uz1J2PvGeL1CGjDaXFBByKVWajs961brikzAFKfIXTaMg_yftG-hI9wXxbQD6bLt4dllLzobKBC1z6bQTLgxN3DOB84sHQMLUSHvPXA6bW&source=gbs_api",
+      "numCopies": 1,
+      "categories": [],
+      "ISBN": "1907163077"
     }
   ]
 }
