@@ -85,10 +85,7 @@ function changeFavorite(_this, id) {
   _this.className == "fa-regular fa-heart"
     ? (_this.className = "fa-solid fa-heart")
     : (_this.className = "fa-regular fa-heart");
-  changeBookFavorite(
-    id,
-    _this.className == "fa-solid fa-heart"
-  )
+  changeBookFavorite(id, _this.className == "fa-solid fa-heart");
 }
 
 function filterBySearch() {

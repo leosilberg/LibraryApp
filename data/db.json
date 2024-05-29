@@ -1,4 +1,321 @@
 {
-  "books": [],
-  "history": []
+  "books": [
+    {
+      "bookName": "After Harry",
+      "authorsName": [
+        "Pam Bloom"
+      ],
+      "numPages": 172,
+      "shortDescription": "When her little boy is killed by a car on the way to school, it changes Stephanie Martin's life forever - in more ways than one. While recovering from the devastating blow, Steph realises she can now hear things others can't, such as the neighbourhood trees screaming in pain as they're cut down, her cat's demands for food... and other people's unspoken thoughts. As a counsellor helping clients overcome various problems, Steph finds this unexpected 'gift' both a curse and a blessing. It also fuels atheist Steph's conflict with her devoutly religious sister. But can it help her save another young boy's life?",
+      "image": "http://books.google.com/books/publisher/content?id=9pVTDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73ZBUU05vx5ivPWFh6Z1R76FG8lsx_fahDpVq0kPnZnBePTHq4mmKdwMPgnY58hFSngMj1WbLdzoaV9Dl2hL1GjlkGQWPeZwKn8G7cyRANodBau-4xwvdUb3mqf0-VPqVDO2AY7&source=gbs_api",
+      "numCopies": 3,
+      "categories": [
+        "Fiction / General"
+      ],
+      "ISBN": "0995527253",
+      "id": 2,
+      "favorite": "false"
+    },
+    {
+      "bookName": "The Musical Standard",
+      "authorsName": [],
+      "numPages": 320,
+      "shortDescription": "",
+      "image": "http://books.google.com/books/content?id=5ug2AQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73Z52nr8AWhH9pqJJIHy66ZG2t5mKUpP5HBtDajdMbL6PHtspGW9aFesv1ES5H5UMDeWXD8Jy-LUp9FVTyXVr7zITLjckOG77a4RbovQPz1pqP0Fyn1o1Z-3GxXd63WdveVQtW3&source=gbs_api",
+      "numCopies": 1,
+      "categories": [],
+      "ISBN": "",
+      "id": 3,
+      "favorite": "true"
+    },
+    {
+      "bookName": "Proceedings of the Zoological Society of London",
+      "authorsName": [
+        "Zoological Society of London"
+      ],
+      "numPages": 1536,
+      "shortDescription": "",
+      "image": "http://books.google.com/books/content?id=U3Y2AQAAMAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70v1s6ZbB43y8poEvwS_Md7IC1UrH5M4OFF9KscwkVy9OEIXzRJkWBNciquZhMM46RdtJS8oOWdOxgpnnYInCaTOJgtDrO0t-YAlpT3Vea8rFIKEL-SBRN6-73XWo4f-UQL_1VZ&source=gbs_api",
+      "numCopies": 3,
+      "categories": [],
+      "ISBN": "",
+      "id": 4,
+      "favorite": "true"
+    },
+    {
+      "bookName": "Professional Papers of the Corps of Royal Engineers",
+      "authorsName": [
+        "Institution of Royal Engineers (Great Britain)"
+      ],
+      "numPages": 430,
+      "shortDescription": "",
+      "image": "http://books.google.com/books/content?id=5Uk-AQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72RVr236GUSkvwIsdOGzn-B2dc3gK8Bo-n8FUwcGlZxQd_yOrN7nRVfASu9wcw7TvplQf6gH5TyHjWmMC4Q9CC-AsRZs41qaiKjUZD95WsdEJHKK8bfldm2n3f3uGGGUJKg-MS_&source=gbs_api",
+      "numCopies": 6,
+      "categories": [],
+      "ISBN": "",
+      "id": 6,
+      "favorite": "false"
+    },
+    {
+      "bookName": "Morning and Evening Sacrifice: a handbook for domestic worship",
+      "authorsName": [
+        "James Dickerson DAVIES"
+      ],
+      "numPages": 64,
+      "shortDescription": "",
+      "image": "http://books.google.com/books/content?id=xbVE3PulfKkC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73ma4dKh3vInyC_9tlRwyWY4AKwnvd4Thxce52U5wmHZKzfe3ElC1It_fyOBougfnwxXfN7spLeeECyU9ZxXcq132usC1_dysJZR8xnk0LI4uX10JLEUvLJRcrO450y2YtE6omK&source=gbs_api",
+      "numCopies": 2,
+      "categories": [],
+      "ISBN": "",
+      "id": 7
+    },
+    {
+      "bookName": "A Shaker's Answer to the Oft-repeated Question, \"What Would Become of the World If All Should Become Shakers?\"",
+      "authorsName": [
+        "Richard W. Pelham"
+      ],
+      "numPages": 31,
+      "shortDescription": "",
+      "image": "http://books.google.com/books/content?id=XA1CN22onEgC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE700vrnswBIwF8yaySosbTM3WobBDkEGjGBwDupRckoIihk_zQtUWGxwB42x0s9Avz3GD-hYre2byDG26qlLLg8C01NRNX7qdyUAYw9yYofjrRCBZ3buITyY7XbmqxNVccQWNrcH&source=gbs_api",
+      "numCopies": 1,
+      "categories": [],
+      "ISBN": "",
+      "id": 8
+    },
+    {
+      "bookName": "A Defence of the Record of Revelation Agaisnt \"Christian Theology and Modern Scepticism.\".",
+      "authorsName": [
+        "John Du Boulay"
+      ],
+      "numPages": 36,
+      "shortDescription": "",
+      "image": "http://books.google.com/books/content?id=GOUbAbq33q4C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73QocPnasdHNs28-aEBggjeHzAvIgPg4v_TwGz90W5RGCg8D_17M0RvO2IYisBEhbSoVgfLBfBQAUHZz__2-FwLpUnzWHIFtei7bcS3TkXgDQyYtLbOZHHDftyifg5NWQ3zxEbn&source=gbs_api",
+      "numCopies": 1,
+      "categories": [],
+      "ISBN": "",
+      "id": 9
+    }
+  ],
+  "history": [
+    {
+      "operation": "create",
+      "time": 1716974837334,
+      "bookName": "Graham's School Dialogues for Young People",
+      "id": 1
+    },
+    {
+      "operation": "create",
+      "time": 1716974839535,
+      "bookName": "After Harry",
+      "id": 2
+    },
+    {
+      "operation": "update",
+      "time": 1716974854747,
+      "bookName": "Graham's School Dialogues for Young People",
+      "id": 3
+    },
+    {
+      "operation": "update",
+      "time": 1716974855412,
+      "bookName": "Graham's School Dialogues for Young People",
+      "id": 4
+    },
+    {
+      "operation": "update",
+      "time": 1716974856400,
+      "bookName": "Graham's School Dialogues for Young People",
+      "id": 5
+    },
+    {
+      "operation": "delete",
+      "time": 1716974857656,
+      "id": 6
+    },
+    {
+      "operation": "update",
+      "time": 1716974862815,
+      "bookName": "After Harry",
+      "id": 7
+    },
+    {
+      "operation": "update",
+      "time": 1716974863632,
+      "bookName": "After Harry",
+      "id": 8
+    },
+    {
+      "operation": "create",
+      "time": 1716974880754,
+      "bookName": "The Musical Standard",
+      "id": 9
+    },
+    {
+      "operation": "create",
+      "time": 1716974882509,
+      "bookName": "Proceedings of the Zoological Society of London",
+      "id": 10
+    },
+    {
+      "operation": "create",
+      "time": 1716974887092,
+      "bookName": "The political development of the towns, by G. G. Wilson. The struggle for judicial supremacy, by E. C. Stiness. Public and private finance, by H. K. Stokes. Industrial development, by J. B. Bowditch. The poor, the defective and the criminal, by J. H. Nutting. Free masonry and Odd fellowship, by H. P. Smith. Early habits and customs and old landmarks, by E. Field",
+      "id": 11
+    },
+    {
+      "operation": "create",
+      "time": 1716974889421,
+      "bookName": "Professional Papers of the Corps of Royal Engineers",
+      "id": 12
+    },
+    {
+      "operation": "create",
+      "time": 1716974893133,
+      "bookName": "Morning and Evening Sacrifice: a handbook for domestic worship",
+      "id": 13
+    },
+    {
+      "operation": "create",
+      "time": 1716974895571,
+      "bookName": "A Shaker's Answer to the Oft-repeated Question, \"What Would Become of the World If All Should Become Shakers?\"",
+      "id": 14
+    },
+    {
+      "operation": "create",
+      "time": 1716974897429,
+      "bookName": "A Defence of the Record of Revelation Agaisnt \"Christian Theology and Modern Scepticism.\".",
+      "id": 15
+    },
+    {
+      "operation": "delete",
+      "time": 1716974920453,
+      "id": 16
+    },
+    {
+      "operation": "update",
+      "time": 1716974923571,
+      "bookName": "Morning and Evening Sacrifice: a handbook for domestic worship",
+      "id": 17
+    },
+    {
+      "operation": "update",
+      "time": 1716974980128,
+      "bookName": "After Harry",
+      "id": 18
+    },
+    {
+      "operation": "update",
+      "time": 1716974985233,
+      "bookName": "The Musical Standard",
+      "id": 19
+    },
+    {
+      "operation": "update",
+      "time": 1716974987437,
+      "bookName": "The Musical Standard",
+      "id": 20
+    },
+    {
+      "operation": "update",
+      "time": 1716975016306,
+      "bookName": "The Musical Standard",
+      "id": 21
+    },
+    {
+      "operation": "update",
+      "time": 1716975020099,
+      "bookName": "The Musical Standard",
+      "id": 22
+    },
+    {
+      "operation": "update",
+      "time": 1716975024174,
+      "bookName": "After Harry",
+      "id": 23
+    },
+    {
+      "operation": "update",
+      "time": 1716975027936,
+      "bookName": "Proceedings of the Zoological Society of London",
+      "id": 24
+    },
+    {
+      "operation": "update",
+      "time": 1716982517710,
+      "bookName": "The Musical Standard",
+      "id": 25
+    },
+    {
+      "operation": "update",
+      "time": 1716982519699,
+      "bookName": "The Musical Standard",
+      "id": 26
+    },
+    {
+      "operation": "update",
+      "time": 1716982545047,
+      "bookName": "The Musical Standard",
+      "id": 27
+    },
+    {
+      "operation": "update",
+      "time": 1716982547021,
+      "bookName": "Professional Papers of the Corps of Royal Engineers",
+      "id": 28
+    },
+    {
+      "operation": "update",
+      "time": 1716982550213,
+      "bookName": "Proceedings of the Zoological Society of London",
+      "id": 29
+    },
+    {
+      "operation": "update",
+      "time": 1716982550787,
+      "bookName": "Proceedings of the Zoological Society of London",
+      "id": 30
+    },
+    {
+      "operation": "update",
+      "time": 1716982552540,
+      "bookName": "Professional Papers of the Corps of Royal Engineers",
+      "id": 31
+    },
+    {
+      "operation": "update",
+      "time": 1716982553321,
+      "bookName": "Professional Papers of the Corps of Royal Engineers",
+      "id": 32
+    },
+    {
+      "operation": "update",
+      "time": 1716982554252,
+      "bookName": "Professional Papers of the Corps of Royal Engineers",
+      "id": 33
+    },
+    {
+      "operation": "update",
+      "time": 1716982555519,
+      "bookName": "Professional Papers of the Corps of Royal Engineers",
+      "id": 34
+    },
+    {
+      "operation": "update",
+      "time": 1716982556288,
+      "bookName": "Professional Papers of the Corps of Royal Engineers",
+      "id": 35
+    },
+    {
+      "operation": "update",
+      "time": 1716982570305,
+      "bookName": "After Harry",
+      "id": 36
+    },
+    {
+      "operation": "update",
+      "time": 1716982572993,
+      "bookName": "Professional Papers of the Corps of Royal Engineers",
+      "id": 37
+    }
+  ]
 }
