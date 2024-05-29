@@ -51,7 +51,7 @@ function getLocalBook(id) {
 
 function getLibraryBooks(pageNum, favoriteFilter, searchFilter) {
   return axios.get(
-    `${LOCAL_URL}books?_page=${pageNum}&_limit=5${favoriteFilter}${searchFilter}`
+    `${LOCAL_URL}books?_page=${pageNum}&_limit=20${favoriteFilter}${searchFilter}`
   );
 }
 function updateNumCoppiesToJson(id, currentNumCopies, change) {

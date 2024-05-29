@@ -107,7 +107,7 @@ function switchPage(action) {
   displayBookOnGrid();
 }
 function largeIcon(icon) {
-  icon.style.fontSize = "20px";
+  icon.style.fontSize = "1.5rem";
 }
 function smallIcon(icon) {
   icon.style.fontSize = "16px";

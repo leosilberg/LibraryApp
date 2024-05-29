@@ -17,83 +17,87 @@
       "favorite": "false"
     },
     {
-      "bookName": "The Musical Standard",
-      "authorsName": [],
-      "numPages": 320,
-      "shortDescription": "",
-      "image": "http://books.google.com/books/content?id=5ug2AQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73Z52nr8AWhH9pqJJIHy66ZG2t5mKUpP5HBtDajdMbL6PHtspGW9aFesv1ES5H5UMDeWXD8Jy-LUp9FVTyXVr7zITLjckOG77a4RbovQPz1pqP0Fyn1o1Z-3GxXd63WdveVQtW3&source=gbs_api",
-      "numCopies": 1,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "authorsName": [
+        "J. K. Rowling"
+      ],
+      "numPages": 332,
+      "shortDescription": "Harry Potter thinks he is an ordinary boy celebrating his 11th birthday, but he is far from wrong. A giant named Hagrid appears, and gives Harry the all important news. He is a wizard. Now his journey in life gets more intense as he travels to Hogwarts school of witchcraft and wizardry to learn the trade of being a wizard. Here, he meets his friends who would be by his side for many years to come. Ron Weasley is not very brave friend and Hermione is the smart friend. But not everything is quiet at Hogwarts as Harry suspects someone is planning to steal the philosopher's stone.",
+      "image": "http://books.google.com/books/content?id=IYqbQgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70oUf5JbXz-rAckbvR-bhE1Dza0fHkndPPRjzMn2KVweWEbDqZMu2_M_Uqa7vhs7OVUJdxzjgqqLC1CUC4kIBklKGVZkkTy5WnPV6gu95HfU5OsKCp5OgeKtwb8g_qKIO9MwCg8&source=gbs_api",
+      "numCopies": 12,
       "categories": [],
-      "ISBN": "",
-      "id": 3,
+      "ISBN": "0747549559",
+      "id": 10,
       "favorite": "true"
     },
     {
-      "bookName": "Proceedings of the Zoological Society of London",
+      "bookName": "Harry Potter and the Sorcerer's Stone / Harry Potter and the Chamber of Secrets / Harry Poter and the Prisoner of Azkaban",
       "authorsName": [
-        "Zoological Society of London"
+        "J. K. Rowling"
       ],
-      "numPages": 1536,
-      "shortDescription": "",
-      "image": "http://books.google.com/books/content?id=U3Y2AQAAMAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70v1s6ZbB43y8poEvwS_Md7IC1UrH5M4OFF9KscwkVy9OEIXzRJkWBNciquZhMM46RdtJS8oOWdOxgpnnYInCaTOJgtDrO0t-YAlpT3Vea8rFIKEL-SBRN6-73XWo4f-UQL_1VZ&source=gbs_api",
-      "numCopies": 3,
-      "categories": [],
-      "ISBN": "",
-      "id": 4,
+      "shortDescription": "The magical books that started it all are now available in paperback in a set of three: Harry Potter and the Sorcerer's Stone; Harry Potter and the Chamber of Secrets; and Harry Potter and the Prisoner of Azkaban.",
+      "image": "http://books.google.com/books/content?id=QCp6PQAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71na7V4-n-pnpq7Tn_fZlrR6iL9jDNe58rep3SBjBXgIjgf6Ixj7nQXh9afMvq4_mTnosCAVjXaUMaLAJlI_U4agmqdZ5TnAzlczAH8atb3ae6uvXlkgn_DavjuETVI8F6UdySm&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Juvenile Fiction / Fantasy & Magic"
+      ],
+      "ISBN": "0439324661",
+      "id": 11
+    },
+    {
+      "bookName": "The Lord of the Highlands",
+      "authorsName": [
+        "Peter Wacht"
+      ],
+      "numPages": 224,
+      "shortDescription": "<p>In The Lord of the Highlands, the Shadow Lord strengthens his hold over the weakened Kingdoms as his dark creatures rise and the High King continues to do his bidding. Yet, a boy rekindles a flame of hope in the Highlands.</p><p><br></p><p>Thomas Kestrel may take his rightful place as Lord of the Highlands, but in doing so he seals his grim fate. Is Thomas willing to fight to restore balance to the Kingdoms, no matter the cost? Will his people even follow?</p><p><br></p><p>The Lord of the Highlands is the fifth book of The Sylvan Chronicles, a nine-book sword and sorcery, coming of age, Arthurian fantasy series.</p>",
+      "image": "http://books.google.com/books/content?id=jKErzQEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72a2_eI7sCYqCAIUmdQbT19Ztv5MgHRJX_a3t54Q5yd3GPTQWor9OSUr4Hxu2rLmKxK-OoUJLRLHenGJ5qnfxDIZoAbsC4Nmqk_qgN5lQQBB0i7mLyUamRgRiLkDcBQttZhrYex&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Fiction / Fantasy / General",
+        "Fiction / Fantasy / Epic"
+      ],
+      "ISBN": "1950236080",
+      "id": 12
+    },
+    {
+      "bookName": "Lord of the Sea Castle",
+      "authorsName": [
+        "Edward Ruadh Butler"
+      ],
+      "numPages": 400,
+      "shortDescription": "<p>It is 1170 – a tumultuous time for the people of Wales, England and Ireland. Raymond de Carew is in love, but the woman he desires is an earl's daughter and so far above his station that he has no hope of ever winning her.<br><br><br><br>However, Raymond’s lord has a mission for him: one that if it succeeds will put an Irish king back on his throne and prove Raymond worthy – for in Norman society, a man can rise as high as his skill with a sword can take him.<br><br><br><br>With only a hundred men at his side, Raymond must cross the ocean to Ireland ahead of his mercenary lord's invasion. There he will face the full might of the Viking city of Waterford... and either his deeds will become legend or he will be trampled into dust.</p>",
+      "image": "http://books.google.com/books/publisher/content?id=ZI67DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71JUARijIGE4jP8R_iko8phMI6YtGhQp1wDWXyU7M3xg2O1sKZLw4If6uumf86k6CQ7xiZ258G4vXtNdb8o1-uXrslSjSONT5_y4qKL-KZiQXv96itkzWlWt8BX1x1QL57m7_Ha&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Fiction / Historical / General",
+        "Fiction / Historical / Medieval",
+        "Fiction / Thrillers / Historical",
+        "Fiction / Action & Adventure",
+        "Fiction / War & Military",
+        "History / Military / General"
+      ],
+      "ISBN": "1910939285",
+      "id": 13
+    },
+    {
+      "bookName": "The Hobbit and History",
+      "authorsName": [
+        "Nancy R. Reagin",
+        "Janice Liedl"
+      ],
+      "numPages": 178,
+      "shortDescription": "<b>What do Gandalf and Merlin have in common, besides robes and magical staffs? Where do hobbits get their recipes, riddles, and love of rambling? What other Rings of Power were circulating in medieval Europe? How did Thorin violate the rules of medieval kingship?</b><p>You’ll find the answers and more in this book, which explores the magic and creativity behind J.R.R. Tolkien’s bestselling story from a historical perspective. Tolkien was a professor of medieval languages and literature at Oxford University, and he drew on his scholarship—and the homely comforts common in his own day—to build the world of <i>The Hobbit.</i><p><i>The Hobbit and History</i> uncovers the parallels between the Middle Ages and the intricate culture of Middle-earth that Tolkien created in <i>The Hobbit</i>, showing how historical cultures provided the models for Tolkien’s characters, foods, riddles, and battle tactics. The book explores how European myths and legends inspired Tolkien’s wizards, dragons, and the monsters he created. Seeing Middle-earth and its peoples against these historical backdrops shines new light on the richness of Tolkien’s world, which is rooted in knowledge of European cultures as deep as the archive that Gandalf explores in Minas Tirith.<p>Filled with fascinating facts and reproductions of Tolkien’s original artwork of Smaug and other aspects of Middle-earth, <i>The Hobbit and History</i> is the missing piece for every book and movie fan and anyone who thought their J.R.R. Tolkien collection was complete.",
+      "image": "http://books.google.com/books/publisher/content?id=vo7uEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73rRlLNkuGCPRcYdXaOXJi311N17bCjIfj3gannhiZodD6EBvDUN_c_fiH6E8FSrpBlgPVOzuKpDvfAckVXiTHYpJ48hKNsHL0c2xY4p78n1AoLPQHb4pzPVEv9Ti-W91E6WTOQ&source=gbs_api",
+      "numCopies": 5,
+      "categories": [
+        "History / General",
+        "Literary Criticism / General",
+        "Performing Arts / Film / General"
+      ],
+      "ISBN": "1630266256",
+      "id": 14,
       "favorite": "true"
-    },
-    {
-      "bookName": "Professional Papers of the Corps of Royal Engineers",
-      "authorsName": [
-        "Institution of Royal Engineers (Great Britain)"
-      ],
-      "numPages": 430,
-      "shortDescription": "",
-      "image": "http://books.google.com/books/content?id=5Uk-AQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72RVr236GUSkvwIsdOGzn-B2dc3gK8Bo-n8FUwcGlZxQd_yOrN7nRVfASu9wcw7TvplQf6gH5TyHjWmMC4Q9CC-AsRZs41qaiKjUZD95WsdEJHKK8bfldm2n3f3uGGGUJKg-MS_&source=gbs_api",
-      "numCopies": 6,
-      "categories": [],
-      "ISBN": "",
-      "id": 6,
-      "favorite": "false"
-    },
-    {
-      "bookName": "Morning and Evening Sacrifice: a handbook for domestic worship",
-      "authorsName": [
-        "James Dickerson DAVIES"
-      ],
-      "numPages": 64,
-      "shortDescription": "",
-      "image": "http://books.google.com/books/content?id=xbVE3PulfKkC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73ma4dKh3vInyC_9tlRwyWY4AKwnvd4Thxce52U5wmHZKzfe3ElC1It_fyOBougfnwxXfN7spLeeECyU9ZxXcq132usC1_dysJZR8xnk0LI4uX10JLEUvLJRcrO450y2YtE6omK&source=gbs_api",
-      "numCopies": 2,
-      "categories": [],
-      "ISBN": "",
-      "id": 7
-    },
-    {
-      "bookName": "A Shaker's Answer to the Oft-repeated Question, \"What Would Become of the World If All Should Become Shakers?\"",
-      "authorsName": [
-        "Richard W. Pelham"
-      ],
-      "numPages": 31,
-      "shortDescription": "",
-      "image": "http://books.google.com/books/content?id=XA1CN22onEgC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE700vrnswBIwF8yaySosbTM3WobBDkEGjGBwDupRckoIihk_zQtUWGxwB42x0s9Avz3GD-hYre2byDG26qlLLg8C01NRNX7qdyUAYw9yYofjrRCBZ3buITyY7XbmqxNVccQWNrcH&source=gbs_api",
-      "numCopies": 1,
-      "categories": [],
-      "ISBN": "",
-      "id": 8
-    },
-    {
-      "bookName": "A Defence of the Record of Revelation Agaisnt \"Christian Theology and Modern Scepticism.\".",
-      "authorsName": [
-        "John Du Boulay"
-      ],
-      "numPages": 36,
-      "shortDescription": "",
-      "image": "http://books.google.com/books/content?id=GOUbAbq33q4C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73QocPnasdHNs28-aEBggjeHzAvIgPg4v_TwGz90W5RGCg8D_17M0RvO2IYisBEhbSoVgfLBfBQAUHZz__2-FwLpUnzWHIFtei7bcS3TkXgDQyYtLbOZHHDftyifg5NWQ3zxEbn&source=gbs_api",
-      "numCopies": 1,
-      "categories": [],
-      "ISBN": "",
-      "id": 9
     }
   ],
   "history": [
@@ -316,6 +320,192 @@
       "time": 1716982572993,
       "bookName": "Professional Papers of the Corps of Royal Engineers",
       "id": 37
+    },
+    {
+      "operation": "create",
+      "time": 1716985017331,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "id": 38
+    },
+    {
+      "operation": "create",
+      "time": 1716985021181,
+      "bookName": "Harry Potter and the Sorcerer's Stone / Harry Potter and the Chamber of Secrets / Harry Poter and the Prisoner of Azkaban",
+      "id": 39
+    },
+    {
+      "operation": "update",
+      "time": 1716985029776,
+      "bookName": "Proceedings of the Zoological Society of London",
+      "id": 40
+    },
+    {
+      "operation": "update",
+      "time": 1716985031057,
+      "bookName": "Proceedings of the Zoological Society of London",
+      "id": 41
+    },
+    {
+      "operation": "delete",
+      "time": 1716986087316,
+      "id": 42
+    },
+    {
+      "operation": "delete",
+      "time": 1716986088977,
+      "id": 43
+    },
+    {
+      "operation": "delete",
+      "time": 1716986334679,
+      "id": 44
+    },
+    {
+      "operation": "delete",
+      "time": 1716986363895,
+      "id": 45
+    },
+    {
+      "operation": "delete",
+      "time": 1716986366526,
+      "id": 46
+    },
+    {
+      "operation": "delete",
+      "time": 1716986368851,
+      "id": 47
+    },
+    {
+      "operation": "create",
+      "time": 1716986390651,
+      "bookName": "The Lord of the Highlands",
+      "id": 48
+    },
+    {
+      "operation": "create",
+      "time": 1716986395529,
+      "bookName": "Lord of the Sea Castle",
+      "id": 49
+    },
+    {
+      "operation": "create",
+      "time": 1716986408781,
+      "bookName": "The Hobbit and History",
+      "id": 50
+    },
+    {
+      "operation": "update",
+      "time": 1716986431501,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "id": 51
+    },
+    {
+      "operation": "update",
+      "time": 1716986432637,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "id": 52
+    },
+    {
+      "operation": "update",
+      "time": 1716986435356,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "id": 53
+    },
+    {
+      "operation": "update",
+      "time": 1716986445536,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "id": 54
+    },
+    {
+      "operation": "update",
+      "time": 1716986445952,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "id": 55
+    },
+    {
+      "operation": "update",
+      "time": 1716986446167,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "id": 56
+    },
+    {
+      "operation": "update",
+      "time": 1716986446358,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "id": 57
+    },
+    {
+      "operation": "update",
+      "time": 1716986446591,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "id": 58
+    },
+    {
+      "operation": "update",
+      "time": 1716986446790,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "id": 59
+    },
+    {
+      "operation": "update",
+      "time": 1716986446985,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "id": 60
+    },
+    {
+      "operation": "update",
+      "time": 1716986447318,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "id": 61
+    },
+    {
+      "operation": "update",
+      "time": 1716986447983,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "id": 62
+    },
+    {
+      "operation": "update",
+      "time": 1716986452467,
+      "bookName": "The Hobbit and History",
+      "id": 63
+    },
+    {
+      "operation": "update",
+      "time": 1716986453466,
+      "bookName": "The Hobbit and History",
+      "id": 64
+    },
+    {
+      "operation": "update",
+      "time": 1716986454705,
+      "bookName": "The Hobbit and History",
+      "id": 65
+    },
+    {
+      "operation": "update",
+      "time": 1716986454853,
+      "bookName": "The Hobbit and History",
+      "id": 66
+    },
+    {
+      "operation": "update",
+      "time": 1716986455017,
+      "bookName": "The Hobbit and History",
+      "id": 67
+    },
+    {
+      "operation": "update",
+      "time": 1716986455302,
+      "bookName": "The Hobbit and History",
+      "id": 68
+    },
+    {
+      "operation": "update",
+      "time": 1716986455600,
+      "bookName": "The Hobbit and History",
+      "id": 69
     }
   ]
 }
