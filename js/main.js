@@ -79,10 +79,10 @@ function changeFavorite(_this, id) {
   changeBookFavorite(id, _this.className == "fa-regular fa-heart");
 }
 
-function filtrBySearch() {
+function filterBySearch() {
   pageNum = 1;
   searchFilterInput =
-    `&bookName_like=${document.querySelector(".search-bar").value}` || "";
+    `&bookName_like=${document.querySelector("#search").value}` || "";
   displayBookOnGrid();
 }
 
