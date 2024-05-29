@@ -228,6 +228,6 @@ form input {
 .hiddenDiv {
   display: none;
   position: absolute;
-  left: 40px;
+  left: 60px;
   /* align-items: center; */
 }

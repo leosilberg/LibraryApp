@@ -32,7 +32,7 @@
         "Romance"
       ],
       "ISBN": "9781503290563",
-      "favorite": "true"
+      "favorite": "false"
     },
     {
       "id": "5",
@@ -43,46 +43,12 @@
       "numPages": 214,
       "shortDescription": "A story about teenage rebellion and angst.",
       "image": "https://images.penguinrandomhouse.com/cover/9780316769488",
-      "numCopies": 5,
+      "numCopies": 6,
       "categories": [
         "Fiction",
         "Classic"
       ],
       "ISBN": "9780316769488",
-      "favorite": "true"
-    },
-    {
-      "id": "6",
-      "bookName": "Moby-Dick",
-      "authorsName": [
-        "Herman Melville"
-      ],
-      "numPages": 635,
-      "shortDescription": "A novel about the quest to capture the elusive white whale, Moby Dick.",
-      "image": "https://images.penguinrandomhouse.com/cover/9781503280786",
-      "numCopies": 2,
-      "categories": [
-        "Fiction",
-        "Adventure"
-      ],
-      "ISBN": "9781503280786",
-      "favorite": true
-    },
-    {
-      "id": "7",
-      "bookName": "War and Peace",
-      "authorsName": [
-        "Leo Tolstoy"
-      ],
-      "numPages": 1225,
-      "shortDescription": "A novel that intertwines the lives of five families during the Napoleonic Wars.",
-      "image": "https://images.penguinrandomhouse.com/cover/9781400079988",
-      "numCopies": 3,
-      "categories": [
-        "Fiction",
-        "Historical"
-      ],
-      "ISBN": "9781400079988",
       "favorite": "false"
     },
     {

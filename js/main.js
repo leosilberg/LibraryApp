@@ -44,20 +44,23 @@ function addBookToGrid(book) {
   });
   newBookDiv.className = "book";
   newBookDiv.innerHTML = `
-  <div class="img-hidden-div"><img class="book-img" src=${book.image} alt="" />
+  <div class="img-hidden-div">
+    <img class="book-img" src=${book.image} alt="" />
     <div class="hiddenDiv">
       <p class="numCopies">${book.numCopies}</p>
-      <button onclick="updateNumCoppies(this,${
+      <i class="fa-solid fa-plus" onclick="updateNumCoppies(this,${
         book.id
-      },1)" class="addCopy">+</button>
+      },1)" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
       <i class="fa-${book.favorite == "true" ? "solid" : "regular"} fa-heart"
-      onclick="changeFavorite(this,${book.id})"></i>
-      <button onclick="deleteBook(${
+      onclick="changeFavorite(this,${
         book.id
-      })" class="delete-book">delete</button>
-      <button onclick="updateNumCoppies(this,${
+      })" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
+      <i class="fa-solid fa-trash" onclick="deleteBookFromLirary(${
         book.id
-      },-1)" class="reduceCopy">-</button>
+      })" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
+      <i class="fa-solid fa-minus" onclick="updateNumCoppies(this,${
+        book.id
+      },-1)" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
     </div>
   </div>
   <p class="book-name">${book.bookName}</p>
@@ -76,10 +79,6 @@ function changeFavorite(_this, id) {
   changeBookFavorite(id, _this.className == "fa-regular fa-heart");
 }
 
-function deleteBook(id) {
-  deleteBookFromLirary(id);
-}
-
 function filtrBySearch() {
   pageNum = 1;
   searchFilterInput =
@@ -89,14 +88,20 @@ function filtrBySearch() {
 
 function favoritesFilter() {
   pageNum = 1;
-  if (document.querySelector(".favoritesSelector").checked)
-    favoritesFilterInput = "&favorite=true";
-  else favoritesFilterInput = "";
+  favoritesFilterInput = document.querySelector(".favoritesSelector").checked
+    ? "&favorite=true"
+    : "";
   displayBookOnGrid();
 }
 function switchPage(action) {
   pageNum += parseInt(action);
   displayBookOnGrid();
+}
+function largeIcon(icon) {
+  icon.style.fontSize = "20px";
+}
+function smallIcon(icon) {
+  icon.style.fontSize = "16px";
 }
 
 function bookClicked(id) {
