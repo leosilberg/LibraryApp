@@ -222,9 +222,6 @@ form input {
 .book__image-card {
   height: 200px;
   object-fit: contain;
-  background: url(https://images.penguinrandomhouse.com/cover/9780547928227)
-    no-repeat center;
-  background-size: contain;
 }
 
 .book__hidden-container {
@@ -232,6 +229,9 @@ form input {
   flex-direction: column;
   align-items: center;
   position: relative;
+  background: url(https://images.penguinrandomhouse.com/cover/9780547928227)
+    no-repeat center;
+  background-size: contain;
 }
 .book__actions-card {
   display: none;
