@@ -41,16 +41,31 @@
       </div>
       <div></div>
     </header>
-    <main>
-      <input
-        type="checkbox"
-        onclick="favoritesFilter()"
-        class="favoritesSelector"
-      />
-      show favorites
-      <div class="book__grid"></div>
-      <button onclick="switchPage(1)" class="NextPage">next</button>
-      <button onclick="switchPage(-1)" class="BackPage">back</button>
+    <main class="wrapper-large">
+      <div></div>
+      <div class="flex-column">
+        <div class="">
+          <label>Favorites</label>
+          <input
+            type="checkbox"
+            onclick="favoritesFilter()"
+            class="favoritesSelector"
+          />
+        </div>
+        <div class="book__grid"></div>
+        <div class="pagination">
+          <i
+            class="fa-solid fa-chevron-left NextPage"
+            onclick="switchPage(1)"
+          ></i>
+          <p id="currentPage">1</p>
+          <i
+            class="fa-solid fa-chevron-right BackPage"
+            onclick="switchPage(-1)"
+          ></i>
+        </div>
+      </div>
+      <div></div>
     </main>
     <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <script src="./js/localAPI.js"></script>

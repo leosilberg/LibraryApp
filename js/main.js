@@ -3,12 +3,15 @@ searchFilterInput = "";
 favoritesFilterInput = "";
 let pageNum = 1;
 bookGrid = document.querySelector(".book__grid");
-
 displayBookOnGrid();
-function getPageNum(currentPageNum) {
-  pageNum = currentPageNum;
-  displayBookOnGrid();
-}
+const elemSearchInput = document.querySelector("#search");
+elemSearchInput.addEventListener("keypress", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    filterBySearch();
+  }
+});
+
 function disablePagesButtons(links) {
   document.querySelector(".NextPage").disabled = !links.includes("next");
   document.querySelector(".BackPage").disabled = !links.includes("prev");
@@ -25,6 +28,7 @@ async function displayBookOnGrid() {
     );
     disablePagesButtons(response.headers.link);
     response.data.forEach((book) => addBookToGrid(book));
+    elemCurrentPage.parentElement.style.display = "flex";
   } catch (error) {
     console.log(error);
   }
@@ -45,22 +49,24 @@ function addBookToGrid(book) {
   newBookDiv.className = "book";
   newBookDiv.innerHTML = `
   <div class="img-hidden-div">
-    <img class="book-img" src=${book.image} alt="" />
+    <img class="book-img" src=${book.image} alt="" onclick="bookClicked('${
+    book.id
+  }')"/>
     <div class="hiddenDiv">
       <p class="numCopies">${book.numCopies}</p>
-      <i class="fa-solid fa-plus" onclick="updateNumCoppies(this,${
+      <i class="fa-solid fa-plus" onclick="updateNumCoppies(this,'${
         book.id
-      },1)" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
+      }',1)" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
       <i class="fa-${book.favorite == "true" ? "solid" : "regular"} fa-heart"
-      onclick="changeFavorite(this,${
+      onclick="changeFavorite(this,'${
         book.id
-      })" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
-      <i class="fa-solid fa-trash" onclick="deleteBookFromLirary(${
+      }')" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
+      <i class="fa-solid fa-trash" onclick="deleteBookFromLirary('${
         book.id
-      })" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
-      <i class="fa-solid fa-minus" onclick="updateNumCoppies(this,${
+      }')" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
+      <i class="fa-solid fa-minus" onclick="updateNumCoppies(this,'${
         book.id
-      },-1)" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
+      }',-1)" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
     </div>
   </div>
   <p class="book-name">${book.bookName}</p>
@@ -76,6 +82,9 @@ function updateNumCoppies(_this, id, change) {
   updateNumCoppiesToJson(id, currentNumCopies, change);
 }
 function changeFavorite(_this, id) {
+  _this.className == "fa-regular fa-heart"
+    ? (_this.className = "fa-solid fa-heart")
+    : (_this.className = "fa-regular fa-heart");
   changeBookFavorite(
     id,
     _this.className == "fa-solid fa-heart"

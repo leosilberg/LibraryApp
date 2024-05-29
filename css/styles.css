@@ -222,6 +222,8 @@ form input {
 .book-img {
   height: 300px;
   width: 200px;
+  background: url(https://images.penguinrandomhouse.com/cover/9780547928227);
+  background-size: contain;
 }
 .img-hidden-div {
   position: relative;
@@ -230,5 +232,7 @@ form input {
   display: none;
   position: absolute;
   left: 60px;
+  /* mix-blend-mode: difference; */
+
   /* align-items: center; */
 }
