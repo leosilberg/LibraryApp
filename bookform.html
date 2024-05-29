@@ -44,7 +44,12 @@
           <div>
             <label>Authors</label>
             <div id="authors">
-              <input type="text" name="authorsName[0]" required />
+              <input
+                type="text"
+                name="authorsName[0]"
+                required
+                oninput=" this.value = this.value.replace(/[0-9]/g,'')"
+              />
             </div>
           </div>
           <button onclick="addAuthor()" type="button" class="button">
@@ -65,11 +70,21 @@
           </button>
           <div>
             <label for="">Pages</label>
-            <input type="number" name="numPages" required />
+            <input
+              type="text"
+              name="numPages"
+              required
+              oninput=" this.value = this.value.replace(/[^0-9]*/g, '')"
+            />
           </div>
           <div>
             <label for="">Copies</label>
-            <input type="number" name="numCopies" required />
+            <input
+              type="text"
+              name="numCopies"
+              required
+              oninput=" this.value = this.value.replace(/[^0-9]*/g, '')"
+            />
           </div>
           <div>
             <label for="">ISBN</label>
