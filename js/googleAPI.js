@@ -1,5 +1,4 @@
 const GOOGLE_URL = "https://www.googleapis.com/books/v1/volumes";
-const API_KEY = "AIzaSyCYjQJs0yLfJCRCDEY89J70NnVHxXc42dg";
 function searchGoogleBooks(searchQuery, startIndex, maxResults) {
   return axios.get(
     `${GOOGLE_URL}?q=${searchQuery}&startIndex=${startIndex}&maxResults=${maxResults}`
@@ -12,6 +11,7 @@ function getGoogleBook(bookID) {
 
 function mapToJsonBook(googleBook) {
   const data = googleBook.data.volumeInfo;
+  console.log(data.imageLinks)
   return {
     bookName: data.title,
     authorsName: data.authors ? data.authors : [],

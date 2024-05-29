@@ -4,19 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/variables.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>History</li>
-          <li>Add New Book</li>
-        </ul>
-      </nav>
+    <header class="wrapper-large">
+      <div></div>
+      <div>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./history.html">History</a></li>
+            <li><a href="./googlebooks.html">Google Books</a></li>
+            <li><a href="./bookform.html">Add New Book</a></li>
+          </ul>
+        </nav>
+        <div class="search-bar">
+          <input type="text" id="search" placeholder="Search..." />
+          <i class="fa-solid fa-magnifying-glass fa-xl" onclick="search()"></i>
+        </div>
+      </div>
+      <div></div>
     </header>
     <main>
       <input type="text" class="search-bar" />

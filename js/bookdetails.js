@@ -12,8 +12,8 @@ let book;
 async function displayBookDetails(id, type) {
   try {
     const result =
-      type == "google" ? await getGoogleBook(id) : await getGoogleBook();
-    book = type == "google" ? mapToJsonBook(result) : book;
+      type == "google" ? await getGoogleBook(id) : await getLocalBook(id);
+    book = type == "google" ? mapToJsonBook(result) : result.data;
     elemBookImage.src = book.image;
     elemBookName.innerText = book.bookName;
     elemBookAuthors.innerHTML = book.authorsName
@@ -28,11 +28,11 @@ async function displayBookDetails(id, type) {
     elemBookActions.innerHTML =
       type == "google"
         ? `
-      <button onclick="addToLibrary()">Add to library</button>
+      <button onclick="addToLibrary()" class="button">Add to library</button>
   `
-        : `<button>-</button>
-    <p>${book.numCopies}
-    <button>+</button>
+        : `<div class="button-counter"><button class="button">-</button>
+    <p>${book.numCopies}</p>
+    <button class="button">+</button></div>
     `;
   } catch (error) {
     console.log(error);
@@ -42,12 +42,15 @@ async function addToLibrary() {
   try {
     const result = await addNewBook(book);
     console.log(result);
-  } catch (error) {
-    console.log(error);
-  }
+    var queryParams = new URLSearchParams(window.location.search);
+    queryParams.set("bookID", result.data.id);
+    queryParams.set("type", "local");
+    history.replaceState(null, null, "?" + queryParams.toString());
+  } catch (error) {}
 }
 function init() {
   const queryString = window.location.search;
+  console.log(location);
   const urlParams = new URLSearchParams(queryString);
   displayBookDetails(urlParams.get("bookID"), urlParams.get("type"));
 }

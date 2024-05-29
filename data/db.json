@@ -1,11 +1,27 @@
 {
-  "books": [],
+  "books": [
+    {
+      "id": "8b82",
+      "image": "http://dfg",
+      "bookName": "1",
+      "authorsName": [
+        "1"
+      ],
+      "shortDescription": "1",
+      "categories": [
+        "1"
+      ],
+      "numPages": "1",
+      "numCopies": "1",
+      "ISBN": ""
+    }
+  ],
   "history": [
     {
-      "id": "",
-      "operation": "",
-      "time": 1235464325,
-      "bookName": ""
+      "id": "4b7b",
+      "operation": "create",
+      "time": 1716965230951,
+      "bookName": "1"
     }
   ]
 }

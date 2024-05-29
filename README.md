@@ -61,5 +61,5 @@ image | Authors
 
 ### index.html
 
-### newbook.html
+### googlebooks.html
 

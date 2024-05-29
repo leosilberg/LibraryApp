@@ -32,20 +32,51 @@
     <main class="wrapper-medium">
       <div></div>
       <div class="flex-column">
-        <div class="book__container">
-          <img class="book__image" />
-          <div class="book__details">
-            <h1 class="book__name"></h1>
-            <div class="book__authors"></div>
-            <div class="book__actions"></div>
-            <p class="book__description"></p>
-            <div class="book__categories"></div>
-            <div class="flex">
-              <p class="book__pages"></p>
-              <p class="book__ISBN"></p>
+        <form>
+          <div>
+            <label> Image URL</label>
+            <input type="url" name="image" value="http://dfg" required />
+          </div>
+          <div>
+            <label>Book Name</label>
+            <input type="text" name="bookName" value="1" required />
+          </div>
+          <div>
+            <label>Authors</label>
+            <div id="authors">
+              <input type="text" name="authorsName[0]" value="1" required />
             </div>
           </div>
-        </div>
+          <button onclick="addAuthor()" type="button" class="button">
+            Add Author
+          </button>
+          <div>
+            <label for="">Description</label>
+            <input type="text" name="shortDescription" value="1" required />
+          </div>
+          <div>
+            <label for="">Categories</label>
+            <div id="categories">
+              <input type="text" name="categories[0]" value="1" required />
+            </div>
+          </div>
+          <button onclick="addCategory()" type="button" class="button">
+            Add Category
+          </button>
+          <div>
+            <label for="">Pages</label>
+            <input type="number" name="numPages" value="1" required />
+          </div>
+          <div>
+            <label for="">Copies</label>
+            <input type="number" name="numCopies" value="1" required />
+          </div>
+          <div>
+            <label for="">ISBN</label>
+            <input type="text" name="ISBN" />
+          </div>
+          <button type="submit" class="button">Submit Book</button>
+        </form>
         <div></div>
       </div>
     </main>
@@ -55,9 +86,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="./js/main.js"></script>
     <script src="./js/localAPI.js"></script>
-    <script src="./js/googleAPI.js"></script>
-    <script src="./js/bookdetails.js"></script>
+    <script src="./js/bookform.js"></script>
   </body>
 </html>

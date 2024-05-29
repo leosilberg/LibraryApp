@@ -4,4 +4,8 @@
   --fw-bold: 700;
   --fw-semi-bold: 600;
   --fw-regular: 400;
+  --clr-background: #fff4cc;
+  --clr-primary: #b3a36b;
+  --clr-accent: #ffdb99;
+  --clr-card: #fffae6;
 }

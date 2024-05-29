@@ -10,3 +10,7 @@ function goToBackPage() {
     getPageNum(num_page);
   }
 }
+
+function bookClicked(id) {
+  location.assign(`/bookdetails.html?bookID=${id}&type=local`);
+}
