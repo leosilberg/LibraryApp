@@ -41,7 +41,7 @@ nav ul {
 
 .book__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 2rem;
 }
 .book__card {
@@ -114,7 +114,12 @@ nav ul {
   height: 300px;
   width: 200px;
 }
+.img-hidden-div {
+  position: relative;
+}
 .hiddenDiv {
-  visibility: hidden;
-  /* transform: translate(y); */
+  display: none;
+  position: absolute;
+  left: 40px;
+  /* align-items: center; */
 }
