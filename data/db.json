@@ -1,4 +1,366 @@
 {
-  "books": [],
-  "history": []
+  "books": [
+    {
+      "id": "2f45",
+      "bookName": "Fear of Food",
+      "authorsName": [
+        "Harvey Levenstein"
+      ],
+      "numPages": 218,
+      "shortDescription": "There may be no greater source of anxiety for Americans today than the question of what to eat and drink. Are eggs the perfect protein, or are they cholesterol bombs? Is red wine good for my heart or bad for my liver? Will pesticides, additives, and processed foods kill me? Here with some very rare and very welcome advice is food historian Harvey Levenstein: Stop worrying! In <i>Fear of Food</i> Levenstein reveals the people and interests who have created and exploited these worries, causing an extraordinary number of Americans to allow fear to trump pleasure in dictating their food choices. He tells of the prominent scientists who first warned about deadly germs and poisons in foods, and their successors who charged that processing foods robs them of life-giving vitamins and minerals. These include Nobel Prize–winner Eli Metchnikoff, who advised that yogurt would enable people to live to be 140 by killing the life-threatening germs in their intestines, and Elmer McCollum, the “discoverer” of vitamins, who tailored his warnings about vitamin deficiencies to suit the food producers who funded him. Levenstein also highlights how large food companies have taken advantage of these concerns by marketing their products to combat the fear of the moment. Such examples include the co-opting of the “natural foods” movement, which grew out of the belief that inhabitants of a remote Himalayan Shangri-la enjoyed remarkable health and longevity by avoiding the very kinds of processed food these corporations produced, and the physiologist Ancel Keys, originator of the Mediterranean Diet, who provided the basis for a powerful coalition of scientists, doctors, food producers, and others to convince Americans that high-fat foods were deadly. In <i>Fear of Food,</i> Levenstein offers a much-needed voice of reason; he expertly questions these stories of constantly changing advice to reveal that there are no hard-and-fast facts when it comes to eating. With this book, he hopes to free us from the fears that cloud so many of our food choices and allow us to finally rediscover the joys of eating something just because it tastes good. <br>",
+      "image": "http://books.google.com/books/content?id=CxKQ2Ak6_p4C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71GFsnajx4fQjVRY7a1vnRRmrOkwyLDAZ9loTtvKh_Hz3aNEqYtQCRHjXACC26-VkOkYJMTvUVK2CcBTcRvqkkC0_Bc4E0kuQerpubYF7uSq69LWj3MjUUtHB_BCAF8wl5k_tJa&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Cooking / History",
+        "Health & Fitness / Diet & Nutrition / General",
+        "History / General",
+        "History / United States / General",
+        "Medical / Nutrition",
+        "Psychology / General",
+        "Psychology / Psychopathology / Eating Disorders",
+        "Psychology / Psychopathology / Anxieties & Phobias",
+        "Science / History",
+        "Social Science / Agriculture & Food"
+      ],
+      "ISBN": "0226473740"
+    },
+    {
+      "id": "db8c",
+      "bookName": "Molecules, Microbes, and Meals",
+      "authorsName": [
+        "Alan Kelly"
+      ],
+      "numPages": 256,
+      "shortDescription": "The goal of Molecules, Microbes, and Meals is to provide an overview of the science of food, exploring all aspects of how food products we purchase and consume come to have the characteristics they do. The key focus is on the science underpinning the appearance, flavor, texture and qualities of food, and the transformations that occur when we cook food products. Every food product is a highly complex scientific entity, and a key objective of the book is to show that an understanding of the science of food can enhance our appreciation and wonder at it. Another key theme will be the convergence of science and art in food, and the history of food, whereby we have known how to undertake what are exceptionally scientifically complex activities such as fermentation, pasteurization and cooking long before the scientific basis for what was happening was understood.",
+      "image": "http://books.google.com/books/publisher/content?id=GMOKDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71BCpv7PnN7lsn4adduShyL5BaA4OB8gvrgnOFpn4JJGMQThC3SuEsbl4l6swRZDrCHGnkqHUJYphiR9r6SSN_qBlKBylYtdStkjGLn2vaOo8MpupY0cmiG4-cS5tr5VUxoiXGW&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Science / Chemistry / General"
+      ],
+      "ISBN": "0190687711"
+    },
+    {
+      "id": "091b",
+      "bookName": "Make it Safe!",
+      "authorsName": [
+        "Csiro Food CSIRO Food and Nutritional Sciences"
+      ],
+      "numPages": 283,
+      "shortDescription": "All people involved with preparation of food for the commercial or retail market should have a sound understanding of the food safety risks associated with their specific products and, importantly, how to control these risks - failure to control food safety hazards can have devastating consequences. <i>Make It Safe</i> provides a science and risked-based intervention approach to the Australian food industry for the control of food safety hazards.<br><br>The huge variety of manufactured foods available to Australian consumers today has largely been the result of the hard work of a group of relatively small manufacturers. Small businesses make up around two-thirds of businesses in Australia's food and beverage manufacturing industry. This book is aimed at those currently manufacturing food on a small-scale or those considering entering this market. It will assist those already operating a small business to develop a better understanding of key food safety systems, while those who are in the \"start-up\" phase will gain knowledge essential to provide their business with a solid food safety foundation.<br><br>The content will also be useful for students of food technology who wish to seek employment in the industry<br>or are planning on establishing their own manufacturing operation.<br><br><b>Key features</b><br>- Outlines the three food safety hazards: microbial, chemical and physical, with a special emphasis on microbial hazards and food recalls are explained<br>- Offers practical guidance on how to control food safety hazards<br>- Information is presented in a straightforward, instructive manner and key messages are highlighted at the end of each chapter",
+      "image": "http://books.google.com/books/content?id=woqlTvavTFMC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70Pt_uH0AivrFXTg4gm8-fSW83pQetfXFF4myM_9FVSRxDzsyC80mv1P9PNR_w-V3ugAMBFQ4a9YI0s9JHithhwskGwWOs5tUlYbnPZrU9GklN_l8A74rlTBxx9DddJVLx3roEr&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Business & Economics / Industries / Food Industry",
+        "Cooking / General",
+        "Health & Fitness / General",
+        "Technology & Engineering / Food Science / General"
+      ],
+      "ISBN": "0643095683"
+    },
+    {
+      "id": "677d",
+      "bookName": "Food Chemistry",
+      "authorsName": [
+        "David E. Newton"
+      ],
+      "numPages": 225,
+      "shortDescription": "Finding new, safe ways to consume food has become complicated as people become more health conscious about the foods they put into their bodies. This work offers information on the field of altering foods for human consumption. It describes the differences between synthetic, engineered, irradiated, and organic foods.",
+      "image": "http://books.google.com/books/content?id=F29kaFKuJdMC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70rDSr0H_7DAOm7ByT-legiL1sRuUDC2Fw5eEoJY7rDULt4SoRiZf5eeg-pAwloxRYS3KhhKUeG9PKy-M45WOSMFj0xsJxbZ08dObBUJ-orMjV7KUoinV7pPIfDLEkJ9qofdm56&source=gbs_api",
+      "numCopies": 1,
+      "categories": [],
+      "ISBN": "143810975X"
+    },
+    {
+      "id": "09ec",
+      "bookName": "Food Fraud",
+      "authorsName": [
+        "John M. Ryan"
+      ],
+      "numPages": 104,
+      "shortDescription": "<i>Food Fraud</i> provides an overview of the current state on the topic to help readers understand which products are being impacted, how pervasive food fraud is, and what laws are in effect across the developed world. As international food trade increases, food processors, distributors, and consumers are purchasing more and more food from foreign countries that, in many cases, have inadequate oversight or control over what is coming into our supermarkets, restaurants, and refrigerators. This book is an essential quick reference that will familiarize readers with the latest issues surrounding the food industry.<ul> <li>Includes new FDA rules based on the Food Safety Modernization Act (FSMA) regarding “intentional adulteration and “economically motivated adulteration </li> <li>Presents a review of the latest food detection testing technologies</li> <li>Provides examples of import controls over illegal replacements</li></ul>",
+      "image": "http://books.google.com/books/publisher/content?id=dpSZBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70tOuKnigCOcBdeHPKgXP-_5cP27tir-G4AdHD_qs-i_Ri83tnYrB3NugWXoa7t94pSVmB_JCMZx0n4WgwBmaBfOYulI4TCXqVyqCQQEv7d4su3eCze4A62Nuj4kLpdTyGWwPxA&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Medical / Microbiology",
+        "Technology & Engineering / Food Science / General"
+      ],
+      "ISBN": "0128033983"
+    },
+    {
+      "id": "6594",
+      "bookName": "Food and Nutrition",
+      "authorsName": [],
+      "numPages": 16,
+      "shortDescription": "",
+      "image": "http://books.google.com/books/content?id=uh2BrWWJvscC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70Vr2hzVQ-KR1HEvjeW7yuuJhMn-mnoJBzGmdhxvBP1W5aM5Igi1ZZ5T-RxJlsPmyltstAuf-f6806qdPMr91TNIure1umd83bGZABjuKiNG9haWv-oYJKZYSLJ_Ml8osh09fKw&source=gbs_api",
+      "numCopies": 1,
+      "categories": [],
+      "ISBN": ""
+    },
+    {
+      "id": "3a48",
+      "bookName": "Food Nations",
+      "authorsName": [
+        "Warren Belasco",
+        "Philip Scranton"
+      ],
+      "numPages": 320,
+      "shortDescription": "This original collection abandons culinary nostalgia and the cataloguing of regional cuisines to examine the role of food and food marketing in constructing culture, consumer behavior, and national identity.",
+      "image": "http://books.google.com/books/publisher/content?id=3Yu3AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73ekQzitOLRnNNv0LM6FKTzuAJJqpBluEeWJR32MEFmsv85x6bpW7nPjFBaIZM-p5YIhLDi8xUZRQIxlwEay3Yr9TlebU--UROkhttuZzRPAYyBDosj4gJwoh_VgLQPnTd8HwmF&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "History / General",
+        "Social Science / Ethnic Studies / General",
+        "Social Science / Sociology / General",
+        "Social Science / Disease & Health Issues",
+        "Social Science / Agriculture & Food",
+        "Science / History",
+        "History / Social History"
+      ],
+      "ISBN": "1136700765"
+    },
+    {
+      "id": "e32c",
+      "bookName": "Food Chaining",
+      "authorsName": [
+        "Cheri Fraker",
+        "Dr. Mark Fishbein",
+        "Sibyl Cox",
+        "Laura Walbert"
+      ],
+      "numPages": 416,
+      "shortDescription": "<b>The complete guide for parents of picky eaters -- how to end mealtime meltdowns and get your children the nutrition they need</b><br><br> Does your child regularly refuse foods or throw a fit at mealtimes? Are you concerned she isn't getting enough nutrition, or that that your child's pickiness might be caused by a hidden medical issue? For every frustrated parent, the food chaining method offers a medically-proven, kid-tested solution.<br><br> Developed by a team of internationally known medical experts, <b>Food Chaining</b> helps you identify the reasons behind your child's picky eating habits -- be it medical, sensory, or because of allergies. Then, with a simple, 6-step method centered around taste, temperature, and texture, target foods are selected that are similar to the ones your child likes, gradually expanding to all food groups. Does your kid like French fries but won't touch veggies? Try hash browns, and slowly expand to sweet potato fries and zucchini sticks -- and then work your way to steamed vegetables.<br><br> With helpful information about common food allergies, lists of sample food chains, advice for special needs children, as well as a pre-chaining program to prevent food aversions before they develop, <b>Food Chaining</b> is your guide to raising lifelong health eaters.",
+      "image": "http://books.google.com/books/publisher/content?id=zphKDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71F0qyz2yl1-i-p1yoLG73PJrL0mPknFvcdcfGOMxMYS_iT9XJiI-4K3mSsbWXx7-rkKR6_ylBfdNY8vzcimiKw0iTDAx8rstf3FJ320J8cOon6AD7SSkj0ALiQfCOZ6Ust-GM1&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Family & Relationships / Parenting / General",
+        "Health & Fitness / Children's Health",
+        "Cooking / Cooking for Kids",
+        "Family & Relationships / Life Stages / Infants & Toddlers",
+        "Family & Relationships / Life Stages / School Age",
+        "Health & Fitness / Diet & Nutrition / Nutrition"
+      ],
+      "ISBN": "078673275X"
+    },
+    {
+      "id": "b65c",
+      "bookName": "Advances in Food and Nutrition Research",
+      "authorsName": [],
+      "numPages": 330,
+      "shortDescription": "Approx.318 pages<br><br>Approx.318 pages",
+      "image": "http://books.google.com/books/publisher/content?id=b-9_DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73akCfeVTR3APwFMM9ZRzfkNYoTWCNevEQxHyep0mzVE_3ZG0Yi9SO-Dt3s0Ba3tvZBmdW5Fn0q5iZ8LNUz-j-a99oItFj1skATAbZ32XLL2T4PPx3nrguz57KN7du10B2GE8d1&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Health & Fitness / Diet & Nutrition / Nutrition",
+        "Technology & Engineering / Food Science / General",
+        "Health & Fitness / General"
+      ],
+      "ISBN": "0128119179"
+    },
+    {
+      "id": "d838",
+      "bookName": "Imagining Sustainable Food Systems",
+      "authorsName": [
+        "Alison Blay-Palmer"
+      ],
+      "numPages": 264,
+      "shortDescription": "What defines a sustainable food system? How can it be more inclusive? How do local and global scales interact and how does power flow within food systems? How to encourage an interdisciplinary approach to realizing sustainable food systems? And how to activate change? These questions are considered by EU and North American academics and practitioners in this book. Using a wide range of case studies, it provides a critical overview, showing how and where theory and practice can converge to produce more sustainable food systems.",
+      "image": "http://books.google.com/books/publisher/content?id=-OYoDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE7360k-hrHnvsxxt9VWGr5xZyiFmOjW46LyRwPniLxronOL7ZYLuOB8iUgfcdZt6zrXFpo8pVHg2wira9VnqVDIAshAmXsngPml328ttNpOh8LRZSm3Kq8Tx_27FpZT705K-NH5D&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Science / Earth Sciences / Geography",
+        "Social Science / Human Geography"
+      ],
+      "ISBN": "1317118634"
+    },
+    {
+      "id": "4049",
+      "bookName": "Muggles and Magic",
+      "authorsName": [
+        "George W. Beahm"
+      ],
+      "numPages": 393,
+      "shortDescription": "Everyone knows the story of Harry Potter and the \"rags-to-riches\" success of its author J.K. Rowling, but Muggles and Magic thoroughly examines every nook and cranny of the Potter universe including Rowling's life before and after Harry. Complete with an in-depth look at the real world of J.K. Rowling, including coverage of her trip to New York City in 2006, a behind-the-scenes peek at the making of the Potter films, and 16 big, bold pages of photos, Muggles and Magic is certain to appeal to Potter fans of all ages.",
+      "image": "http://books.google.com/books/content?id=F8npAAAAMAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73DyjD7WBxkcojFzuvFMWn76XnDynPbMuv9phtg9eKDnZdgrDZWhrO6PTmYgcCUt4sqFnBRruLSSJ_7J4YteRKlZO8WWdAC7pabDiV_MOHEp2s8tl4FnqKSLVXBa3-73X9AyErX&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Fiction / Fantasy / Collections & Anthologies",
+        "Juvenile Nonfiction / General",
+        "Juvenile Nonfiction / Literary Criticism & Collections",
+        "Juvenile Fiction / Short Stories",
+        "Literary Criticism / Children's & Young Adult Literature"
+      ],
+      "ISBN": "1571744126",
+      "favorite": "true"
+    },
+    {
+      "id": "6882",
+      "bookName": "Enzymes in Food Processing",
+      "authorsName": [
+        "Gregory A. Tucker",
+        "L.F.J. Woods"
+      ],
+      "numPages": 319,
+      "shortDescription": "Recent years have seen a rapid increase in the use of enzymes as food processing tools, as an understanding of their means of control has improved. Since publication of the first edition of this book many new products have been commercially produced and the corresponding number of published papers has swollen. This second edition has been fully revised and updated to cover changes in the last five years. It continues to provide food technologists, chemists, biochemists and microbiologists with an authoritative, practical and detailed review of the subject.",
+      "image": "http://books.google.com/books/publisher/content?id=KKDaBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE711hObPrXDzM4-wI4hmnQewz4a-9v1wbT9s-zcnrrfj19AgSdsy35YvOlZa5PpefTbR3UzNrCIgUu7IAAMpEzmCIeyIW_vmueMZ0cj7QeYpSAbukOXqoT9IdTnpa6I-FonRxl01&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Technology & Engineering / Food Science / General",
+        "Technology & Engineering / Chemical & Biochemical"
+      ],
+      "ISBN": "1461521475"
+    }
+  ],
+  "history": [
+    {
+      "id": "2534",
+      "operation": "create",
+      "time": 1716985802000,
+      "bookName": "Fear of Food"
+    },
+    {
+      "id": "eaec",
+      "operation": "create",
+      "time": 1716985817589,
+      "bookName": "Molecules, Microbes, and Meals"
+    },
+    {
+      "id": "6d25",
+      "operation": "create",
+      "time": 1716985821488,
+      "bookName": "Make it Safe!"
+    },
+    {
+      "id": "0c11",
+      "operation": "create",
+      "time": 1716985825170,
+      "bookName": "Food Chemistry"
+    },
+    {
+      "id": "7f2f",
+      "operation": "create",
+      "time": 1716985831238,
+      "bookName": "Food Fraud"
+    },
+    {
+      "id": "9817",
+      "operation": "create",
+      "time": 1716985838407,
+      "bookName": "Food and Nutrition"
+    },
+    {
+      "id": "e41a",
+      "operation": "create",
+      "time": 1716985842189,
+      "bookName": "Food Nations"
+    },
+    {
+      "id": "d59c",
+      "operation": "create",
+      "time": 1716985846073,
+      "bookName": "Food Chaining"
+    },
+    {
+      "id": "a316",
+      "operation": "create",
+      "time": 1716985852729,
+      "bookName": "Advances in Food and Nutrition Research"
+    },
+    {
+      "id": "48cc",
+      "operation": "create",
+      "time": 1716985877420,
+      "bookName": "Imagining Sustainable Food Systems"
+    },
+    {
+      "id": "a50a",
+      "operation": "create",
+      "time": 1716986538508,
+      "bookName": "Muggles and Magic"
+    },
+    {
+      "id": "1e71",
+      "operation": "update",
+      "time": 1716986542578,
+      "bookName": "Muggles and Magic"
+    },
+    {
+      "id": "de8a",
+      "operation": "update",
+      "time": 1716986703820,
+      "bookName": "Muggles and Magic"
+    },
+    {
+      "id": "acd6",
+      "operation": "update",
+      "time": 1716986707727,
+      "bookName": "Muggles and Magic"
+    },
+    {
+      "id": "46d4",
+      "operation": "update",
+      "time": 1716986711338,
+      "bookName": "Muggles and Magic"
+    },
+    {
+      "id": "1d46",
+      "operation": "update",
+      "time": 1716986714293,
+      "bookName": "Muggles and Magic"
+    },
+    {
+      "id": "fb5c",
+      "operation": "update",
+      "time": 1716986717184,
+      "bookName": "Muggles and Magic"
+    },
+    {
+      "id": "14a7",
+      "operation": "update",
+      "time": 1716986719523,
+      "bookName": "Muggles and Magic"
+    },
+    {
+      "id": "21b8",
+      "operation": "update",
+      "time": 1716986721515,
+      "bookName": "Muggles and Magic"
+    },
+    {
+      "id": "3c6f",
+      "operation": "update",
+      "time": 1716986723358,
+      "bookName": "Muggles and Magic"
+    },
+    {
+      "id": "c40e",
+      "operation": "update",
+      "time": 1716986726452,
+      "bookName": "Muggles and Magic"
+    },
+    {
+      "id": "1dfa",
+      "operation": "update",
+      "time": 1716986728566,
+      "bookName": "Muggles and Magic"
+    },
+    {
+      "id": "23a0",
+      "operation": "update",
+      "time": 1716986731154,
+      "bookName": "Muggles and Magic"
+    },
+    {
+      "id": "21e7",
+      "operation": "update",
+      "time": 1716986736209,
+      "bookName": "Muggles and Magic"
+    },
+    {
+      "id": "f403",
+      "operation": "create",
+      "time": 1716987088378,
+      "bookName": "Enzymes in Food Processing"
+    }
+  ]
 }

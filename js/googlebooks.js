@@ -17,11 +17,23 @@ async function search() {
     );
     result.data.items.forEach((book) => {
       const data = book.volumeInfo;
-
-      let element = `<div class="book__card">
+      const newBookDiv = document.createElement("div");
+      newBookDiv.addEventListener("mouseover", (event) => {
+        newBookDiv.querySelector(".book__actions-card").style.display = "flex";
+      });
+      newBookDiv.addEventListener("mouseleave", (e) => {
+        newBookDiv.querySelector(".book__actions-card").style.display = "none";
+      });
+      newBookDiv.className = "book__card";
+      newBookDiv.innerHTML = `
+      <div class="book__hidden-container ">
     <img class="book__image-card" src="${
       data.imageLinks ? data.imageLinks.thumbnail : ""
     }" onclick="bookClicked('${book.id}')"/>
+    <div class="book__actions-card">
+    <i class="fa-solid fa-plus" onclick="addBook('${book.id}')"></i>
+    </div>
+    </div>
     <h3 class="book__name-card">${data.title}</h3>
     <div class="book__authors-card">
     ${
@@ -34,9 +46,8 @@ async function search() {
         : ""
     }
     </div>
-    <i class="fa-solid fa-plus" onclick="addBook('${book.id}')"></i>
     </div>`;
-      elemGrid.innerHTML += element;
+      elemGrid.appendChild(newBookDiv);
     });
     elemCurrentPage.parentElement.style.display = "flex";
   } catch (error) {

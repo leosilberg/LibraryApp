@@ -5,6 +5,7 @@ let pageNum = 1;
 bookGrid = document.querySelector(".book__grid");
 displayBookOnGrid();
 const elemSearchInput = document.querySelector("#search");
+const elemCurrentPage = document.querySelector("#currentPage");
 elemSearchInput.addEventListener("keypress", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
@@ -21,14 +22,14 @@ async function displayBookOnGrid() {
   //   url = `http://localhost:8001/books?_page=${pageNum}&_per_page=5`;
   bookGrid.innerHTML = "";
   try {
-    response = await getLibraryBooks(
+    const response = await getLibraryBooks(
       pageNum,
       favoritesFilterInput,
       searchFilterInput
     );
+    elemCurrentPage.parentElement.style.display = "flex";
     disablePagesButtons(response.headers.link);
     response.data.forEach((book) => addBookToGrid(book));
-    elemCurrentPage.parentElement.style.display = "flex";
   } catch (error) {
     console.log(error);
   }
@@ -38,22 +39,25 @@ function addBookToGrid(book) {
   console.log(book);
   const newBookDiv = document.createElement("div");
   newBookDiv.addEventListener("mouseover", (event) => {
-    newBookDiv.querySelector(".hiddenDiv").style.display = "block";
-    newBookDiv.querySelector(".hiddenDiv").style.transform =
-      "translateY(-60px)";
-    // newBookDiv.querySelector(".hiddenDiv").style.display = "block";
+    newBookDiv.querySelector(".book__actions-card").style.display = "flex";
   });
   newBookDiv.addEventListener("mouseleave", (e) => {
-    newBookDiv.querySelector(".hiddenDiv").style.display = "none";
+    newBookDiv.querySelector(".book__actions-card").style.display = "none";
   });
-  newBookDiv.className = "book";
+  newBookDiv.className = "book__card";
   newBookDiv.innerHTML = `
-  <div class="img-hidden-div">
-    <img class="book-img" src=${book.image} alt="" onclick="bookClicked('${
-    book.id
-  }')"/>
-    <div class="hiddenDiv">
-      <p class="numCopies">${book.numCopies}</p>
+  <div class="book__hidden-container ">
+    <img class="book__image-card" src=${
+      book.image
+    } alt="" onclick="bookClicked('${book.id}')"/>
+    <div class="book__actions-card">
+    <i class="fa-solid fa-trash" onclick="deleteBookFromLirary('${
+      book.id
+    }')" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
+    <i class="fa-solid fa-minus" onclick="updateNumCoppies(this,'${
+      book.id
+    }',-1)" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
+      <span class="numCopies">${book.numCopies}</span>
       <i class="fa-solid fa-plus" onclick="updateNumCoppies(this,'${
         book.id
       }',1)" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
@@ -61,15 +65,9 @@ function addBookToGrid(book) {
       onclick="changeFavorite(this,'${
         book.id
       }')" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
-      <i class="fa-solid fa-trash" onclick="deleteBookFromLirary('${
-        book.id
-      }')" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
-      <i class="fa-solid fa-minus" onclick="updateNumCoppies(this,'${
-        book.id
-      }',-1)" onmouseover="largeIcon(this)" onmouseleave="smallIcon(this)"></i>
     </div>
   </div>
-  <p class="book-name">${book.bookName}</p>
+  <h3 class="book__name-card">${book.bookName}</p>
   <p class="author">by ${book.authorsName[0]}</p>
 `;
   bookGrid.appendChild(newBookDiv);
@@ -82,13 +80,10 @@ function updateNumCoppies(_this, id, change) {
   updateNumCoppiesToJson(id, currentNumCopies, change);
 }
 function changeFavorite(_this, id) {
+  changeBookFavorite(id, _this.className == "fa-solid fa-heart");
   _this.className == "fa-regular fa-heart"
     ? (_this.className = "fa-solid fa-heart")
     : (_this.className = "fa-regular fa-heart");
-  changeBookFavorite(
-    id,
-    _this.className == "fa-solid fa-heart"
-  )
 }
 
 function filterBySearch() {
@@ -110,10 +105,10 @@ function switchPage(action) {
   displayBookOnGrid();
 }
 function largeIcon(icon) {
-  icon.style.fontSize = "20px";
+  icon.style.fontSize = "24px";
 }
 function smallIcon(icon) {
-  icon.style.fontSize = "16px";
+  icon.style.fontSize = "";
 }
 
 function bookClicked(id) {

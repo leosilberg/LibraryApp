@@ -25,7 +25,7 @@ async function displayBookDetails(id, type) {
     elemBookDescription.innerHTML = book.shortDescription;
     elemBookPages.innerText = `${book.numPages} pages`;
     elemBookISBN.innerText = `ISBN: ${book.ISBN}`;
-    elemBookActions.innerHTML =
+    elemBookActions.innerHTML +=
       type == "google"
         ? `
       <button onclick="addToLibrary()" class="button">Add to library</button>
@@ -35,7 +35,7 @@ async function displayBookDetails(id, type) {
         <i class="fa-${book.favorite == "true" ? "solid" : "regular"} fa-heart"
       onclick="changeFavorite(this,'${book.id}')"></i>
         <div class="button-counter"><button class="button" onclick="updateCopies('-1')">-</button>
-    <p>${book.numCopies}</p>
+    <p class="book__copies">${book.numCopies}</p>
     <button class="button" onclick="updateCopies('1')">+</button></div>
     `;
   } catch (error) {
@@ -45,18 +45,16 @@ async function displayBookDetails(id, type) {
 async function addToLibrary() {
   try {
     const result = await addNewBook(book);
-    console.log(result);
     var queryParams = new URLSearchParams(window.location.search);
     queryParams.set("bookID", result.data.id);
     queryParams.set("type", "local");
     history.replaceState(null, null, "?" + queryParams.toString());
   } catch (error) {
-    console.log(error);
+    document.querySelector(".book__actions-error").innerText = error;
   }
 }
 async function updateCopies(change) {
   if (book.numCopies == "0" && change == "-1") {
-    console.log("scadfv")
     return;
   }
   try {
@@ -65,7 +63,7 @@ async function updateCopies(change) {
       book.numCopies,
       change
     );
-    console.log(result);
+    document.querySelector(".book__copies").innerText = result.data.numCopies;
   } catch (error) {
     console.log(error);
   }
@@ -76,6 +74,9 @@ async function changeFavorite(_this, id) {
       id,
       _this.className == "fa-solid fa-heart"
     );
+    _this.className = `fa-${
+      result.data.favorite == "true" ? "solid" : "regular"
+    } fa-heart`;
   } catch (error) {
     console.log(error);
   }

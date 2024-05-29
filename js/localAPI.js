@@ -31,7 +31,7 @@ axios.interceptors.response.use(
   }
 );
 function getAllHistroy() {
-  return axios.get(LOCAL_URL + "history");
+  return axios.get(LOCAL_URL + "history?_sort=-time");
 }
 function addHistoryAction(action) {
   return axios.post(LOCAL_URL + "history", action);
@@ -39,7 +39,6 @@ function addHistoryAction(action) {
 async function addNewBook(book) {
   const result = await axios.get(LOCAL_URL + "books?bookName=" + book.bookName);
   if (result.data.length != 0) {
-    console.log("dsfv");
     throw "Book already added to library";
   }
   return axios.post(LOCAL_URL + "books", book);
