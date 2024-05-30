@@ -83,11 +83,12 @@ async function changeFavorite(_this, id) {
 }
 async function deleteBook(id) {
   try {
-    const result = await deleteBookFromLirary(id);
+    const result = await deleteLocalBook(id);
     console.log(result);
     location.assign(`/index.html`);
   } catch (error) {
     console.log(error);
+    document.querySelector(".book__actions-error").innerText = "Error deleting";
   }
 }
 function init() {

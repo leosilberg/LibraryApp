@@ -1,64 +1,6 @@
 {
   "books": [
     {
-      "id": "2f45",
-      "bookName": "Fear of Food",
-      "authorsName": [
-        "Harvey Levenstein"
-      ],
-      "numPages": 218,
-      "shortDescription": "There may be no greater source of anxiety for Americans today than the question of what to eat and drink. Are eggs the perfect protein, or are they cholesterol bombs? Is red wine good for my heart or bad for my liver? Will pesticides, additives, and processed foods kill me? Here with some very rare and very welcome advice is food historian Harvey Levenstein: Stop worrying! In <i>Fear of Food</i> Levenstein reveals the people and interests who have created and exploited these worries, causing an extraordinary number of Americans to allow fear to trump pleasure in dictating their food choices. He tells of the prominent scientists who first warned about deadly germs and poisons in foods, and their successors who charged that processing foods robs them of life-giving vitamins and minerals. These include Nobel Prize–winner Eli Metchnikoff, who advised that yogurt would enable people to live to be 140 by killing the life-threatening germs in their intestines, and Elmer McCollum, the “discoverer” of vitamins, who tailored his warnings about vitamin deficiencies to suit the food producers who funded him. Levenstein also highlights how large food companies have taken advantage of these concerns by marketing their products to combat the fear of the moment. Such examples include the co-opting of the “natural foods” movement, which grew out of the belief that inhabitants of a remote Himalayan Shangri-la enjoyed remarkable health and longevity by avoiding the very kinds of processed food these corporations produced, and the physiologist Ancel Keys, originator of the Mediterranean Diet, who provided the basis for a powerful coalition of scientists, doctors, food producers, and others to convince Americans that high-fat foods were deadly. In <i>Fear of Food,</i> Levenstein offers a much-needed voice of reason; he expertly questions these stories of constantly changing advice to reveal that there are no hard-and-fast facts when it comes to eating. With this book, he hopes to free us from the fears that cloud so many of our food choices and allow us to finally rediscover the joys of eating something just because it tastes good. <br>",
-      "image": "http://books.google.com/books/content?id=CxKQ2Ak6_p4C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71GFsnajx4fQjVRY7a1vnRRmrOkwyLDAZ9loTtvKh_Hz3aNEqYtQCRHjXACC26-VkOkYJMTvUVK2CcBTcRvqkkC0_Bc4E0kuQerpubYF7uSq69LWj3MjUUtHB_BCAF8wl5k_tJa&source=gbs_api",
-      "numCopies": 3,
-      "categories": [
-        "Cooking / History",
-        "Health & Fitness / Diet & Nutrition / General",
-        "History / General",
-        "History / United States / General",
-        "Medical / Nutrition",
-        "Psychology / General",
-        "Psychology / Psychopathology / Eating Disorders",
-        "Psychology / Psychopathology / Anxieties & Phobias",
-        "Science / History",
-        "Social Science / Agriculture & Food"
-      ],
-      "ISBN": "0226473740",
-      "favorite": "false"
-    },
-    {
-      "id": "db8c",
-      "bookName": "Molecules, Microbes, and Meals",
-      "authorsName": [
-        "Alan Kelly"
-      ],
-      "numPages": 256,
-      "shortDescription": "The goal of Molecules, Microbes, and Meals is to provide an overview of the science of food, exploring all aspects of how food products we purchase and consume come to have the characteristics they do. The key focus is on the science underpinning the appearance, flavor, texture and qualities of food, and the transformations that occur when we cook food products. Every food product is a highly complex scientific entity, and a key objective of the book is to show that an understanding of the science of food can enhance our appreciation and wonder at it. Another key theme will be the convergence of science and art in food, and the history of food, whereby we have known how to undertake what are exceptionally scientifically complex activities such as fermentation, pasteurization and cooking long before the scientific basis for what was happening was understood.",
-      "image": "http://books.google.com/books/publisher/content?id=GMOKDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71BCpv7PnN7lsn4adduShyL5BaA4OB8gvrgnOFpn4JJGMQThC3SuEsbl4l6swRZDrCHGnkqHUJYphiR9r6SSN_qBlKBylYtdStkjGLn2vaOo8MpupY0cmiG4-cS5tr5VUxoiXGW&source=gbs_api",
-      "numCopies": 1,
-      "categories": [
-        "Science / Chemistry / General"
-      ],
-      "ISBN": "0190687711"
-    },
-    {
-      "id": "091b",
-      "bookName": "Make it Safe!",
-      "authorsName": [
-        "Csiro Food CSIRO Food and Nutritional Sciences"
-      ],
-      "numPages": 283,
-      "shortDescription": "All people involved with preparation of food for the commercial or retail market should have a sound understanding of the food safety risks associated with their specific products and, importantly, how to control these risks - failure to control food safety hazards can have devastating consequences. <i>Make It Safe</i> provides a science and risked-based intervention approach to the Australian food industry for the control of food safety hazards.<br><br>The huge variety of manufactured foods available to Australian consumers today has largely been the result of the hard work of a group of relatively small manufacturers. Small businesses make up around two-thirds of businesses in Australia's food and beverage manufacturing industry. This book is aimed at those currently manufacturing food on a small-scale or those considering entering this market. It will assist those already operating a small business to develop a better understanding of key food safety systems, while those who are in the \"start-up\" phase will gain knowledge essential to provide their business with a solid food safety foundation.<br><br>The content will also be useful for students of food technology who wish to seek employment in the industry<br>or are planning on establishing their own manufacturing operation.<br><br><b>Key features</b><br>- Outlines the three food safety hazards: microbial, chemical and physical, with a special emphasis on microbial hazards and food recalls are explained<br>- Offers practical guidance on how to control food safety hazards<br>- Information is presented in a straightforward, instructive manner and key messages are highlighted at the end of each chapter",
-      "image": "http://books.google.com/books/content?id=woqlTvavTFMC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70Pt_uH0AivrFXTg4gm8-fSW83pQetfXFF4myM_9FVSRxDzsyC80mv1P9PNR_w-V3ugAMBFQ4a9YI0s9JHithhwskGwWOs5tUlYbnPZrU9GklN_l8A74rlTBxx9DddJVLx3roEr&source=gbs_api",
-      "numCopies": 1,
-      "categories": [
-        "Business & Economics / Industries / Food Industry",
-        "Cooking / General",
-        "Health & Fitness / General",
-        "Technology & Engineering / Food Science / General"
-      ],
-      "ISBN": "0643095683"
-    },
-    {
       "id": "677d",
       "bookName": "Food Chemistry",
       "authorsName": [
@@ -67,98 +9,10 @@
       "numPages": 225,
       "shortDescription": "Finding new, safe ways to consume food has become complicated as people become more health conscious about the foods they put into their bodies. This work offers information on the field of altering foods for human consumption. It describes the differences between synthetic, engineered, irradiated, and organic foods.",
       "image": "http://books.google.com/books/content?id=F29kaFKuJdMC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70rDSr0H_7DAOm7ByT-legiL1sRuUDC2Fw5eEoJY7rDULt4SoRiZf5eeg-pAwloxRYS3KhhKUeG9PKy-M45WOSMFj0xsJxbZ08dObBUJ-orMjV7KUoinV7pPIfDLEkJ9qofdm56&source=gbs_api",
-      "numCopies": 1,
+      "numCopies": 3,
       "categories": [],
-      "ISBN": "143810975X"
-    },
-    {
-      "id": "09ec",
-      "bookName": "Food Fraud",
-      "authorsName": [
-        "John M. Ryan"
-      ],
-      "numPages": 104,
-      "shortDescription": "<i>Food Fraud</i> provides an overview of the current state on the topic to help readers understand which products are being impacted, how pervasive food fraud is, and what laws are in effect across the developed world. As international food trade increases, food processors, distributors, and consumers are purchasing more and more food from foreign countries that, in many cases, have inadequate oversight or control over what is coming into our supermarkets, restaurants, and refrigerators. This book is an essential quick reference that will familiarize readers with the latest issues surrounding the food industry.<ul> <li>Includes new FDA rules based on the Food Safety Modernization Act (FSMA) regarding “intentional adulteration and “economically motivated adulteration </li> <li>Presents a review of the latest food detection testing technologies</li> <li>Provides examples of import controls over illegal replacements</li></ul>",
-      "image": "http://books.google.com/books/publisher/content?id=dpSZBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70tOuKnigCOcBdeHPKgXP-_5cP27tir-G4AdHD_qs-i_Ri83tnYrB3NugWXoa7t94pSVmB_JCMZx0n4WgwBmaBfOYulI4TCXqVyqCQQEv7d4su3eCze4A62Nuj4kLpdTyGWwPxA&source=gbs_api",
-      "numCopies": 1,
-      "categories": [
-        "Medical / Microbiology",
-        "Technology & Engineering / Food Science / General"
-      ],
-      "ISBN": "0128033983"
-    },
-    {
-      "id": "6594",
-      "bookName": "Food and Nutrition",
-      "authorsName": [],
-      "numPages": 16,
-      "shortDescription": "",
-      "image": "http://books.google.com/books/content?id=uh2BrWWJvscC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70Vr2hzVQ-KR1HEvjeW7yuuJhMn-mnoJBzGmdhxvBP1W5aM5Igi1ZZ5T-RxJlsPmyltstAuf-f6806qdPMr91TNIure1umd83bGZABjuKiNG9haWv-oYJKZYSLJ_Ml8osh09fKw&source=gbs_api",
-      "numCopies": 1,
-      "categories": [],
-      "ISBN": ""
-    },
-    {
-      "id": "3a48",
-      "bookName": "Food Nations",
-      "authorsName": [
-        "Warren Belasco",
-        "Philip Scranton"
-      ],
-      "numPages": 320,
-      "shortDescription": "This original collection abandons culinary nostalgia and the cataloguing of regional cuisines to examine the role of food and food marketing in constructing culture, consumer behavior, and national identity.",
-      "image": "http://books.google.com/books/publisher/content?id=3Yu3AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73ekQzitOLRnNNv0LM6FKTzuAJJqpBluEeWJR32MEFmsv85x6bpW7nPjFBaIZM-p5YIhLDi8xUZRQIxlwEay3Yr9TlebU--UROkhttuZzRPAYyBDosj4gJwoh_VgLQPnTd8HwmF&source=gbs_api",
-      "numCopies": 1,
-      "categories": [
-        "History / General",
-        "Social Science / Ethnic Studies / General",
-        "Social Science / Sociology / General",
-        "Social Science / Disease & Health Issues",
-        "Social Science / Agriculture & Food",
-        "Science / History",
-        "History / Social History"
-      ],
-      "ISBN": "1136700765",
+      "ISBN": "143810975X",
       "favorite": "true"
-    },
-    {
-      "id": "e32c",
-      "bookName": "Food Chaining",
-      "authorsName": [
-        "Cheri Fraker",
-        "Dr. Mark Fishbein",
-        "Sibyl Cox",
-        "Laura Walbert"
-      ],
-      "numPages": 416,
-      "shortDescription": "<b>The complete guide for parents of picky eaters -- how to end mealtime meltdowns and get your children the nutrition they need</b><br><br> Does your child regularly refuse foods or throw a fit at mealtimes? Are you concerned she isn't getting enough nutrition, or that that your child's pickiness might be caused by a hidden medical issue? For every frustrated parent, the food chaining method offers a medically-proven, kid-tested solution.<br><br> Developed by a team of internationally known medical experts, <b>Food Chaining</b> helps you identify the reasons behind your child's picky eating habits -- be it medical, sensory, or because of allergies. Then, with a simple, 6-step method centered around taste, temperature, and texture, target foods are selected that are similar to the ones your child likes, gradually expanding to all food groups. Does your kid like French fries but won't touch veggies? Try hash browns, and slowly expand to sweet potato fries and zucchini sticks -- and then work your way to steamed vegetables.<br><br> With helpful information about common food allergies, lists of sample food chains, advice for special needs children, as well as a pre-chaining program to prevent food aversions before they develop, <b>Food Chaining</b> is your guide to raising lifelong health eaters.",
-      "image": "http://books.google.com/books/publisher/content?id=zphKDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71F0qyz2yl1-i-p1yoLG73PJrL0mPknFvcdcfGOMxMYS_iT9XJiI-4K3mSsbWXx7-rkKR6_ylBfdNY8vzcimiKw0iTDAx8rstf3FJ320J8cOon6AD7SSkj0ALiQfCOZ6Ust-GM1&source=gbs_api",
-      "numCopies": 1,
-      "categories": [
-        "Family & Relationships / Parenting / General",
-        "Health & Fitness / Children's Health",
-        "Cooking / Cooking for Kids",
-        "Family & Relationships / Life Stages / Infants & Toddlers",
-        "Family & Relationships / Life Stages / School Age",
-        "Health & Fitness / Diet & Nutrition / Nutrition"
-      ],
-      "ISBN": "078673275X"
-    },
-    {
-      "id": "b65c",
-      "bookName": "Advances in Food and Nutrition Research",
-      "authorsName": [],
-      "numPages": 330,
-      "shortDescription": "Approx.318 pages<br><br>Approx.318 pages",
-      "image": "http://books.google.com/books/publisher/content?id=b-9_DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73akCfeVTR3APwFMM9ZRzfkNYoTWCNevEQxHyep0mzVE_3ZG0Yi9SO-Dt3s0Ba3tvZBmdW5Fn0q5iZ8LNUz-j-a99oItFj1skATAbZ32XLL2T4PPx3nrguz57KN7du10B2GE8d1&source=gbs_api",
-      "numCopies": 1,
-      "categories": [
-        "Health & Fitness / Diet & Nutrition / Nutrition",
-        "Technology & Engineering / Food Science / General",
-        "Health & Fitness / General"
-      ],
-      "ISBN": "0128119179",
-      "favorite": "false"
     },
     {
       "id": "d838",
@@ -169,12 +23,13 @@
       "numPages": 264,
       "shortDescription": "What defines a sustainable food system? How can it be more inclusive? How do local and global scales interact and how does power flow within food systems? How to encourage an interdisciplinary approach to realizing sustainable food systems? And how to activate change? These questions are considered by EU and North American academics and practitioners in this book. Using a wide range of case studies, it provides a critical overview, showing how and where theory and practice can converge to produce more sustainable food systems.",
       "image": "http://books.google.com/books/publisher/content?id=-OYoDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE7360k-hrHnvsxxt9VWGr5xZyiFmOjW46LyRwPniLxronOL7ZYLuOB8iUgfcdZt6zrXFpo8pVHg2wira9VnqVDIAshAmXsngPml328ttNpOh8LRZSm3Kq8Tx_27FpZT705K-NH5D&source=gbs_api",
-      "numCopies": 1,
+      "numCopies": 2,
       "categories": [
         "Science / Earth Sciences / Geography",
         "Social Science / Human Geography"
       ],
-      "ISBN": "1317118634"
+      "ISBN": "1317118634",
+      "favorite": "true"
     },
     {
       "id": "4049",
@@ -194,7 +49,7 @@
         "Literary Criticism / Children's & Young Adult Literature"
       ],
       "ISBN": "1571744126",
-      "favorite": "true"
+      "favorite": "false"
     },
     {
       "id": "6882",
@@ -227,7 +82,8 @@
         "Philosophy / General"
       ],
       "ISBN": "0470627352",
-      "id": "FPnc_9O"
+      "id": "FPnc_9O",
+      "favorite": "true"
     },
     {
       "bookName": "1984",
@@ -258,17 +114,6 @@
       "id": "NC9P5lA"
     },
     {
-      "bookName": "Ecological Research Series",
-      "authorsName": [],
-      "numPages": 484,
-      "shortDescription": "",
-      "image": "http://books.google.com/books/content?id=ACOAweM6LJsC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70xwec7Mz7XMVwOdnG1M0UJpbNgtFdoqGrD40i9gHd7ppOWxW1Ch2ZqguOGHFWAXzXEGiQdfhKDzv6hV0vWG8-QSshr91a1uq_DKPO47VgykxQgO41D-ZR5XebhcWEQpVVlxBoB&source=gbs_api",
-      "numCopies": 1,
-      "categories": [],
-      "ISBN": "",
-      "id": "_YYA3Bm"
-    },
-    {
       "bookName": "Popular Mechanics",
       "authorsName": [
         "Hearst Magazines"
@@ -295,19 +140,6 @@
       "id": "KEcHmmn"
     },
     {
-      "bookName": "A Library of Poetry and Song",
-      "authorsName": [
-        "William Cullen Bryant"
-      ],
-      "numPages": 789,
-      "shortDescription": "",
-      "image": "http://books.google.com/books/content?id=kmexCFrfWnkC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70m4vamND8LerjDFOA3DzCG55K8_tZxS4PrPQokQ2os5oA4MMXEDTEnrx7rmyc_l3kYT2ePU-pF2Ng1HRfLxwC2dMKx9LvkALHad4Gk4v3FtCpYM5iKJU95lqzmoKbw65RV_LAC&source=gbs_api",
-      "numCopies": 1,
-      "categories": [],
-      "ISBN": "",
-      "id": "8J-RQYD"
-    },
-    {
       "bookName": "Harry Potter and the Sorcerer's Stone / Harry Potter and the Chamber of Secrets / Harry Poter and the Prisoner of Azkaban",
       "authorsName": [
         "J. K. Rowling"
@@ -322,20 +154,224 @@
       "id": "Xr8ymBo"
     },
     {
-      "image": "http://127.0.0.1:5500/bookform.html",
-      "bookName": "mejsn",
+      "bookName": "Harry Potter and History",
       "authorsName": [
-        "jnsjrn"
+        "Nancy Reagin"
       ],
-      "shortDescription": "njndejn",
+      "numPages": 352,
+      "shortDescription": "<b>A guide to the history behind the world of Harry Potter--just in time for the last Harry Potter movie, Harry Potter and the <i>Deathly Hallows</i> (Part II)</b><p>Harry Potter lives in a world that is both magical and historical. Hogwarts pupils ride an old-fashioned steam train to school, notes are taken on parchment with quill pens, and Muggle legends come to life in the form of werewolves, witches, and magical spells. This book is the first to explore the real history in which Harry's world is rooted.<p>Did you know that bezoars and mandrakes were fashionable luxury items for centuries? Find out how Europeans first developed the potions, spells, and charms taught at Hogwarts, from Avada Kedavra to love charms. Learn how the European prosecution of witches led to the Statute of Secrecy, meet the real Nicholas Flamel, see how the Malfoys stack up against Muggle English aristocrats, and compare the history of the wizarding world to real-life history.<ul><li>Gives you the historical backdrop to Harry Potter's world<li>Covers topics ranging from how real British boarding schools compare to Hogwarts to how parchment, quills, and scrolls used in the wizarding world were made<li>Includes a timeline comparing the history of the wizarding world to Muggle \"real\" history</ul><p>Filled with fascinating facts and background, <i>Harry Potter and History</i> is an essential companion for every Harry Potter fan.",
+      "image": "http://books.google.com/books/content?id=KYvzzwEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71BNv3uyIcW2GS_xzZK6RiUoPtTBPX5psomPZhV7K4_YYzzMETZXzVi55qfpYrU1MBWv5JPP1NI1fY7qy2kMgCc63NhULxdaNTAtwkOlKkeNPYl7J53lj3qeCDmpq-jafZGj50b&source=gbs_api",
+      "numCopies": 1,
       "categories": [
-        "nnvjwewnjr"
+        "History / General"
       ],
-      "numPages": "432",
-      "numCopies": 223531,
+      "ISBN": "0470574720",
+      "id": "t9gtJ_S"
+    },
+    {
+      "bookName": "A Political History of the Bible in America",
+      "authorsName": [
+        "Paul D. Hanson"
+      ],
+      "numPages": 688,
+      "shortDescription": "<p>\"Biblical history, enriched by many religious and cultural traditions, flows into and is intertwined with our nation's epic, both for better and for worse. To ignore that history is to cut ourselves off from our roots and to deny the ancestral experiences that forged our individual and collective identity.\"<br>from the prologue</p><p>This substantial work explores the interplay of religion and politics throughout the history of the United States. Paul D. Hanson traces American history back to colonial times, paying close attention to the role that biblical tradition has played in shaping the national story of the United States. He then presents a detailed study of politics in the Bible that is framed by the challenges and crises in American history. Students will learn how deeply religion has influenced both domestic and international policy and contributed to the nation's sense of identity and purpose. After laying these biblical-historical foundations, Hanson considers a method of biblical interpretation that can speak to the diverse nation of today. He proposes an inclusive form of public moral discourse that invites full participation by members of all religious and philosophical groups.</p>",
+      "image": "http://books.google.com/books/publisher/content?id=TqtjCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70piKo_BUwVP4A5So4DVr7dGG9rFRVsOQQq5h5hWtMrcA_bQf8rzY2ypLNWcNKSZIlbXhxuEMmZpAPx12D_AolwohotaNjaigudmP8pL2TJPQHQxmrGFv2Uz4IDPoONKu23P_F1&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Religion / Christianity / History",
+        "History / United States / General",
+        "Religion / History",
+        "Religion / Christianity / General"
+      ],
+      "ISBN": "1611646081",
+      "id": "jcYI6ap"
+    },
+    {
+      "bookName": "Bible Word Studies: A How-to Guide",
+      "authorsName": [
+        "Barry, John D.; Van Noord, Rebecca"
+      ],
+      "numPages": 124,
+      "shortDescription": "",
+      "image": "http://books.google.com/books/publisher/content?id=yyVZBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72fyNgpzksVG_7Do1Q89gM_yESJRzvtPM38fGgzS2NQxXKF8fqjbnys1Kc3IDnjj39JkzXwYYktLb4baReOl2z1Sw-Gi5ymfK0V66-EhcjRo_u6S3Y3lz4dFnYz3B0JSH2YliPe&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Religion / Biblical Studies / Exegesis & Hermeneutics"
+      ],
+      "ISBN": "1577995961",
+      "id": "DzEl5iY"
+    },
+    {
+      "bookName": "The Bible as a Human Witness to Divine Revelation",
+      "authorsName": [
+        "Randall Heskett",
+        "Brian Irwin"
+      ],
+      "numPages": 400,
+      "shortDescription": "This work represents the attempts of several major scholars to respond to the historical problems presented throughout the biblical testimony and their description of what this means for reading scripture. Walter Brueggemann, for example, has written a wonderful article on various historical problems within the book of Genesis, beginning with Von Rad's and Noth's use of source criticism and his own understanding of how historically dissimilar texts can function within scripture.<br><br><br>This book honors the work and life of Gerald Sheppard, who broke ground in biblical studies by describing what it means to read the Bible as Jewish and Christian Scripture. It distinguishes between the original historical dimensions of the text or mere redaction levels of tradition history and what Sheppard regarded as the \"Scriptural Form\" of the biblical testimony. It provides new and fresh ways for describing scripture as both a human testimony and also divine revelation.<br><br><br><i>The Bible as a Human Witness to Divine Revelation</i> provides examples of how major scholars have responded to the limits of the older-modern criticisms within the framework of still applying a variety of historical criticisms and paying attention to the later formation and context of the biblical book. It also helps readers understand how to hear \"the word of God\" through biblical text that are filled with historical dissimilarities or even contradictions. The book shows scholarly examples that respond to crises of both the pre-modern and modern eras as unfinished projects because pre-modernity tended to ignore the human dimensions of scripture and modernity tended to limit its inquiry only to that single dimension",
+      "image": "http://books.google.com/books/publisher/content?id=9qSoAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71dW9dygHwmGDWnn6Yu54Oo6nLqX9KL0U2gx8_mnDCQ8s85XLllWCLYBTSOONAZiSLNEQyq8vMLAtWxIfS5O0erMxz3BHisVwE7e9SLYDY0ggMReg9YTEida34nL3rtJ5ZO_RO3&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Religion / Biblical Criticism & Interpretation / Old Testament",
+        "Religion / Biblical Studies / General"
+      ],
+      "ISBN": "0567092038",
+      "id": "yzA9HK-"
+    },
+    {
+      "bookName": "TELL THE TRUTH AS IT IS",
+      "authorsName": [
+        "REVD A.A. HARRIOTT"
+      ],
+      "numPages": 90,
+      "shortDescription": "As a youth born and raised in Jamaica and through some African history we were taught in school, we acquired very little knowledge of the history of black nations. I also learned and accepted a Christ-like way of life which, up to this present time, remains the major force in my life on this planet and has also given me a great feeling of passion for all people. We were financially poor but always had plenty of food and drink. As a country boy, when I left school I had no real concept of time but was acutely aware of day and night. We did not know anything about slavery but one of the homes in which I was brought up was one of many slavery camps. Some of the chains that were used to bind young children to their parents whilst they were working on the plantations later became our childhood toys. The manner in which many of us were chastised was an indication of the upbringing that our parents were handing down to us because they knew of no other way.",
+      "image": "http://books.google.com/books/publisher/content?id=pyGBAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70dxmQfJiI98t8tkvGjV_UV0DFWIta795RWL9Pya7M9lZAM0N3OxwFVJiywnoOKvcgCxrgKb5IxY5io70gPafsIV_X4ssTukCrME6ZwXqgqt6YyG3mCG9Im7CtwCzqTaQL7sRaL&source=gbs_api",
+      "numCopies": 2,
+      "categories": [
+        "Biography & Autobiography / General",
+        "Religion / General"
+      ],
+      "ISBN": "1491883308",
+      "id": "SN9O6_m"
+    },
+    {
+      "bookName": "Twelve Years a Slave (Film Tie-in)",
+      "authorsName": [
+        "Solomon Northup"
+      ],
+      "numPages": 256,
+      "shortDescription": "<p><b><i>'</i>I could not believe that I had never heard of this book. It felt as important as Anne Frank's diary, only published nearly a hundred years before' - Steve McQueen, director of the Academy Award-winning film of Solomun Northup's powerful memoir</b><br><br>Solomon Northup is a free man, living in New York. Then he is kidnapped and sold into slavery.<br><br>Drugged, beaten, given a new name and transported away from his wife and children to a Louisiana cotton plantation, Solomon will die if he reveals his true identity. This is the searing true story of his twelve years as a slave: the endless brutality, daily humiliations and constant fear, but also the small ways in which he and his fellow men try to survive.<br><br><i>Twelve Years a Slave</i> is a unique, unflinching record of slavery from the inside, and the incredible account of one man whose life was ripped from him - and who fought to get it back.<br><br>'A moving, vital testament to one of slavery's \"many thousands gone\" who retained his humanity in the bowels of degradation' - <i>Saturday Review</i></p>",
+      "image": "http://books.google.com/books/publisher/content?id=Hj5RAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71l4u3cuwZqzekO_kNGHyz5diGuXpTyhB4cGEhSJ7tzuIKpqvsF-HFk675q9tnba6cykzEol0YvkQ-oqq6f33TRK8Oe9dmJ0FSBApRgw-C9zm1YqriGXDTuGJZM-o1e6iEhb2TE&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Biography & Autobiography / Personal Memoirs",
+        "Social Science / Slavery",
+        "History / United States / 19th Century"
+      ],
+      "ISBN": "0141395338",
+      "id": "LBgJHZs"
+    },
+    {
+      "bookName": "Make it Safe!",
+      "authorsName": [
+        "Csiro Food CSIRO Food and Nutritional Sciences"
+      ],
+      "numPages": 283,
+      "shortDescription": "All people involved with preparation of food for the commercial or retail market should have a sound understanding of the food safety risks associated with their specific products and, importantly, how to control these risks - failure to control food safety hazards can have devastating consequences. <i>Make It Safe</i> provides a science and risked-based intervention approach to the Australian food industry for the control of food safety hazards.<br><br>The huge variety of manufactured foods available to Australian consumers today has largely been the result of the hard work of a group of relatively small manufacturers. Small businesses make up around two-thirds of businesses in Australia's food and beverage manufacturing industry. This book is aimed at those currently manufacturing food on a small-scale or those considering entering this market. It will assist those already operating a small business to develop a better understanding of key food safety systems, while those who are in the \"start-up\" phase will gain knowledge essential to provide their business with a solid food safety foundation.<br><br>The content will also be useful for students of food technology who wish to seek employment in the industry<br>or are planning on establishing their own manufacturing operation.<br><br><b>Key features</b><br>- Outlines the three food safety hazards: microbial, chemical and physical, with a special emphasis on microbial hazards and food recalls are explained<br>- Offers practical guidance on how to control food safety hazards<br>- Information is presented in a straightforward, instructive manner and key messages are highlighted at the end of each chapter",
+      "image": "http://books.google.com/books/content?id=woqlTvavTFMC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72ZCguzKMxMZys-atVlOXKihOBm9nQsfXDFKFHMxA7XgI7OudVDF5qzhR8giEdCQKeh5_bDj0RYaiJ1zw-wCpLM6l_sc7UlXkEc-RfjfsV8kViO3k6tsDsY9WoJaWgKwD3OnyY7&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Business & Economics / Industries / Food Industry",
+        "Cooking / General",
+        "Health & Fitness / General",
+        "Technology & Engineering / Food Science / General"
+      ],
+      "ISBN": "0643095683",
+      "id": "zjTdqai"
+    },
+    {
+      "bookName": "Proteins in Food Processing",
+      "authorsName": [
+        "Rickey Y. Yada"
+      ],
+      "numPages": 674,
+      "shortDescription": "<p><i>Proteins in Food Processing, Second Edition,</i> reviews how proteins may be used to enhance the nutritional, textural and other qualities of food products. After two introductory chapters, the book discusses sources of proteins, examining the caseins, whey, muscle and soy proteins, and proteins from oil-producing plants, cereals and seaweed. Part Two illustrates the analysis and modification of proteins, with chapters on testing protein functionality, modeling protein behavior, extracting and purifying proteins and reducing their allergenicity. A final group of chapters delves into the functional value of proteins and how they are used as additives in foods.</p><ul> <li>Completely revised and updated with new developments on all food protein analysis and applications, such as alternative proteins sources, proteins as emulsifiers, proteins in nanotechnology and egg proteins</li> <li>Reviews the wide range of protein sources available</li> <li>Examines ways of modifying protein sources</li> <li>Discusses the use of proteins to enhance the nutritional, textural and other qualities of food products</li></ul>",
+      "image": "http://books.google.com/books/publisher/content?id=boeZDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71LNFBTqwsxYrbyEWUIbph8FG9i6n51X_JraDpUS1pP1uzSHiuylSXRyit6pgy1WcWn4I20QtX1vJ1AjBQ43ydVFFtlbzG2uAK6SCwLL22dxSAVew8rmLmH7aD_vm07-EFbclP7&source=gbs_api",
+      "numCopies": 2,
+      "categories": [
+        "Technology & Engineering / Food Science / General"
+      ],
+      "ISBN": "0081007299",
+      "id": "nXyhc1S"
+    },
+    {
+      "bookName": "Top 100 Exotic Food Plants",
+      "authorsName": [
+        "Ernest Small"
+      ],
+      "numPages": 708,
+      "shortDescription": "Many edible plants considered exotic in the Western world are actually quite mainstream in other cultures. While some of these plants are only encountered in ethnic food markets or during travels to foreign lands, many are now finding their way onto supermarket shelves. Top 100 Exotic Food Plants provides comprehensive coverage of tropical and semi",
+      "image": "http://books.google.com/books/publisher/content?id=Au3RBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73eIYdL82fwAg9aeGoZkdclEh4nqK4g8dtcULL7NPwC-6XZx1eHO1MNh8bzJfeafEpWTLrgSS7fT_DqKUdUmocrjJ-AM1hIQH2PWdUkaH6-RH-KF5VYxg1adUWqFLQQjxvdCIyc&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Science / Life Sciences / Botany",
+        "Science / Life Sciences / General",
+        "Technology & Engineering / Agriculture / General",
+        "Technology & Engineering / Food Science / General",
+        "Business & Economics / Industries / Agribusiness"
+      ],
+      "ISBN": "1439856885",
+      "id": "h1tROta"
+    },
+    {
+      "bookName": "Complete Book of Bible Quotations",
+      "authorsName": [
+        "Mark L. Levine",
+        "Eugene Rachlis"
+      ],
+      "numPages": 592,
+      "shortDescription": "<b>The definitive, indispensable, and easy-to-use sourcebook of Bible quotations! From the Old and New Testaments. </b><br><br>This unique collection of more than 5,000 inspirational quotations from the Old and New Testaments of the King James Version of the Bible combines both famous and lesser-known quotes that are conveniently arranged by subject. You’ll turn again and again to fascinating and inspiring quotations from the authoritative King James Version of the Bible, universally renowned for its poetic and beautiful language. <i>The Complete Book of Bible Quotations </i>is the essential reference for speechwriters, clergy, students, crossword puzzle fans, and browsers alike.",
+      "image": "http://books.google.com/books/content?id=xM_b3oOc2F4C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71g794T4OgXQKDCASDiIjzmDNswFUZil_xV_O9fLRs7ETgwrEd32AxqcTXItd6KvXAbXVYicuKqOOBm3NrHnslxDcbK3UOG2oCAC6sg_cbJJ4YiJfoCf-PC31WgIUUr5AXEjzRb&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Bibles / King James Version / Reference",
+        "Reference / Quotations",
+        "Religion / General",
+        "Religion / Biblical Reference / Quotations",
+        "Religion / Reference"
+      ],
+      "ISBN": "067167692X",
+      "id": "H8lJ-MA"
+    },
+    {
+      "bookName": "NASA Tech Briefs",
+      "authorsName": [],
+      "numPages": 1456,
+      "shortDescription": "",
+      "image": "http://books.google.com/books/content?id=5KjBBgVOUjEC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71E_CHUjNY2j_0V66kU0JXFBhg90B0G_mElPm7lKqQJOaQkAPz-x9DIaDniINbwGd0wWXGsrSx8VjIgzZW6lvnqvRg-UvsLMfcsdS7B6qLR9ZXW5FSpOXIDlF7ty_FLl9qmgCUh&source=gbs_api",
+      "numCopies": 1,
+      "categories": [],
       "ISBN": "",
-      "id": "oBE-g7E",
-      "favorite": "true"
+      "id": "taVOFwK"
+    },
+    {
+      "image": "data:image/jpeg;base64,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",
+      "bookName": "regwe",
+      "authorsName": [
+        "ceewfe",
+        "eeww",
+        "1ffew",
+        "cdger"
+      ],
+      "shortDescription": " fvtgrwe",
+      "categories": [
+        "wfregrw"
+      ],
+      "numPages": "54365",
+      "numCopies": "656454",
+      "ISBN": "",
+      "id": "sfRQlnh"
+    },
+    {
+      "bookName": "Re-Reading Harry Potter",
+      "authorsName": [
+        "Suman Gupta"
+      ],
+      "numPages": 278,
+      "shortDescription": "This book discusses the political and social presumptions ingrained in the texts of the Harry Potter series and examines the manner in which they have been received in different contexts and media. The 2nd edition also contains extensive new material which comments on the later books and examines the impact of the phenomenon across the world.",
+      "image": "http://books.google.com/books/publisher/content?id=JI6JDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71nTidbxJ0xsp6sSXFP5U_jra9R8YdWDo_RQbzdUfXws3lXdli3uxU2R3W8mdFMMqd63oUGgYo8b9cGxXT5OrQhUVJVo4QIOfAG0_w8eNbq0ggeou4cVynjevZ4WVCK75a7fRgf&source=gbs_api",
+      "numCopies": 1,
+      "categories": [
+        "Literary Criticism / European / English, Irish, Scottish, Welsh",
+        "Literary Criticism / Modern / 20th Century",
+        "Literary Criticism / Children's & Young Adult Literature",
+        "Fiction / General",
+        "Performing Arts / General",
+        "Literary Criticism / General",
+        "Language Arts & Disciplines / Linguistics / General"
+      ],
+      "ISBN": "0230279716",
+      "id": "D6pV0aO"
     }
   ],
   "history": [
@@ -666,6 +702,704 @@
       "time": 1716988718089,
       "bookName": "mejsn",
       "id": "UDrlgFp"
+    },
+    {
+      "operation": "update",
+      "time": 1716989195739,
+      "bookName": "mejsn",
+      "id": "kyocV68"
+    },
+    {
+      "operation": "update",
+      "time": 1716989196506,
+      "bookName": "mejsn",
+      "id": "xzXmalE"
+    },
+    {
+      "operation": "update",
+      "time": 1717022704909,
+      "bookName": "Make it Safe!",
+      "id": "VI_ijK0"
+    },
+    {
+      "operation": "update",
+      "time": 1717022705749,
+      "bookName": "Make it Safe!",
+      "id": "jDOw3b4"
+    },
+    {
+      "operation": "update",
+      "time": 1717022828947,
+      "bookName": "Advances in Food and Nutrition Research",
+      "id": "x0qQfvB"
+    },
+    {
+      "operation": "create",
+      "time": 1717022851693,
+      "bookName": "Harry Potter and History",
+      "id": "7GgSpro"
+    },
+    {
+      "operation": "create",
+      "time": 1717022865226,
+      "bookName": "Harry's Book of Birds",
+      "id": "6JOMY7w"
+    },
+    {
+      "operation": "update",
+      "time": 1717049200919,
+      "bookName": "Molecules, Microbes, and Meals",
+      "id": "8wdXNY-"
+    },
+    {
+      "operation": "update",
+      "time": 1717049213755,
+      "bookName": "Molecules, Microbes, and Meals",
+      "id": "i_iWfjt"
+    },
+    {
+      "operation": "update",
+      "time": 1717049215282,
+      "bookName": "Molecules, Microbes, and Meals",
+      "id": "7VavJjo"
+    },
+    {
+      "operation": "update",
+      "time": 1717049567434,
+      "bookName": "Molecules, Microbes, and Meals",
+      "id": "2-gtDOq"
+    },
+    {
+      "operation": "update",
+      "time": 1717049568864,
+      "bookName": "Molecules, Microbes, and Meals",
+      "id": "dWjBFpd"
+    },
+    {
+      "operation": "update",
+      "time": 1717049569349,
+      "bookName": "Molecules, Microbes, and Meals",
+      "id": "6dA34bC"
+    },
+    {
+      "operation": "update",
+      "time": 1717049572461,
+      "bookName": "Molecules, Microbes, and Meals",
+      "id": "xInGFvx"
+    },
+    {
+      "operation": "update",
+      "time": 1717049653373,
+      "bookName": "Make it Safe!",
+      "id": "Cmu_c89"
+    },
+    {
+      "operation": "update",
+      "time": 1717049654960,
+      "bookName": "Make it Safe!",
+      "id": "3PrPH9C"
+    },
+    {
+      "operation": "update",
+      "time": 1717049656779,
+      "bookName": "Make it Safe!",
+      "id": "BOFvHkh"
+    },
+    {
+      "operation": "update",
+      "time": 1717049658381,
+      "bookName": "Make it Safe!",
+      "id": "vwN63hR"
+    },
+    {
+      "operation": "update",
+      "time": 1717049659953,
+      "bookName": "Make it Safe!",
+      "id": "rtYEQ9M"
+    },
+    {
+      "operation": "update",
+      "time": 1717049661510,
+      "bookName": "Make it Safe!",
+      "id": "SY405YM"
+    },
+    {
+      "operation": "update",
+      "time": 1717049735665,
+      "bookName": "Molecules, Microbes, and Meals",
+      "id": "Prc-sgH"
+    },
+    {
+      "operation": "update",
+      "time": 1717049832450,
+      "bookName": "Food and Nutrition",
+      "id": "cmu-sxp"
+    },
+    {
+      "operation": "update",
+      "time": 1717049962464,
+      "bookName": "Fear of Food",
+      "id": "XdJCkS-"
+    },
+    {
+      "operation": "update",
+      "time": 1717050119256,
+      "bookName": "Molecules, Microbes, and Meals",
+      "id": "zt3bAbG"
+    },
+    {
+      "operation": "update",
+      "time": 1717050120372,
+      "bookName": "Molecules, Microbes, and Meals",
+      "id": "7Rqa2od"
+    },
+    {
+      "operation": "update",
+      "time": 1717050121592,
+      "bookName": "Molecules, Microbes, and Meals",
+      "id": "nZo-SN5"
+    },
+    {
+      "operation": "delete",
+      "time": 1717050125795,
+      "id": "UY0QBFt"
+    },
+    {
+      "operation": "update",
+      "time": 1717050189397,
+      "bookName": "Food Fraud",
+      "id": "pOwqd4F"
+    },
+    {
+      "operation": "delete",
+      "time": 1717050217867,
+      "id": "x7le29Z"
+    },
+    {
+      "operation": "update",
+      "time": 1717050244409,
+      "bookName": "Food Nations",
+      "id": "PLV83Ol"
+    },
+    {
+      "operation": "update",
+      "time": 1717050289485,
+      "bookName": "Food Fraud",
+      "id": "xWID2Qt"
+    },
+    {
+      "operation": "update",
+      "time": 1717050292841,
+      "bookName": "Food Nations",
+      "id": "KFsWk9c"
+    },
+    {
+      "operation": "create",
+      "time": 1717050316229,
+      "bookName": "A Political History of the Bible in America",
+      "id": "Mox46gH"
+    },
+    {
+      "operation": "create",
+      "time": 1717050318560,
+      "bookName": "Bible Word Studies: A How-to Guide",
+      "id": "3Le2oJs"
+    },
+    {
+      "operation": "create",
+      "time": 1717050321185,
+      "bookName": "The Bible Out of the Pew",
+      "id": "5yy_63K"
+    },
+    {
+      "operation": "create",
+      "time": 1717050324731,
+      "bookName": "The Bible as a Human Witness to Divine Revelation",
+      "id": "cphKkm0"
+    },
+    {
+      "operation": "create",
+      "time": 1717050341180,
+      "bookName": "TELL THE TRUTH AS IT IS",
+      "id": "pWb8Xlz"
+    },
+    {
+      "operation": "create",
+      "time": 1717050345461,
+      "bookName": "Twelve Years a Slave (Film Tie-in)",
+      "id": "poFZ7jc"
+    },
+    {
+      "operation": "delete",
+      "time": 1717050383066,
+      "id": "dGVuHbv"
+    },
+    {
+      "operation": "delete",
+      "time": 1717050488655,
+      "id": "UFTj2di"
+    },
+    {
+      "operation": "delete",
+      "time": 1717050495861,
+      "id": "ENasGvP"
+    },
+    {
+      "operation": "delete",
+      "time": 1717050502122,
+      "id": "YtdvYqP"
+    },
+    {
+      "operation": "update",
+      "time": 1717050566512,
+      "bookName": "Food Nations",
+      "id": "isrZl_6"
+    },
+    {
+      "operation": "update",
+      "time": 1717050568629,
+      "bookName": "Food Nations",
+      "id": "nPjhOrw"
+    },
+    {
+      "operation": "update",
+      "time": 1717050570026,
+      "bookName": "Food Nations",
+      "id": "nho-SQH"
+    },
+    {
+      "operation": "update",
+      "time": 1717050571257,
+      "bookName": "Food Nations",
+      "id": "7hNxtVI"
+    },
+    {
+      "operation": "create",
+      "time": 1717050601438,
+      "bookName": "Make it Safe!",
+      "id": "sollfMX"
+    },
+    {
+      "operation": "delete",
+      "time": 1717050854555,
+      "id": "EE2bdHR"
+    },
+    {
+      "operation": "delete",
+      "time": 1717050860653,
+      "id": "RUfum4B"
+    },
+    {
+      "operation": "create",
+      "time": 1717050881758,
+      "bookName": "Proteins in Food Processing",
+      "id": "LDD63bh"
+    },
+    {
+      "operation": "create",
+      "time": 1717050890625,
+      "bookName": "Food and Nutrition Economics",
+      "id": "6fSPYV_"
+    },
+    {
+      "operation": "create",
+      "time": 1717050896335,
+      "bookName": "Top 100 Exotic Food Plants",
+      "id": "8CmbXag"
+    },
+    {
+      "operation": "create",
+      "time": 1717050901054,
+      "bookName": "The State of Food Insecurity in Lusaka, Zambia",
+      "id": "OCCo73J"
+    },
+    {
+      "operation": "create",
+      "time": 1717050911466,
+      "bookName": "Food Policy in the United States",
+      "id": "er30Qv-"
+    },
+    {
+      "operation": "update",
+      "time": 1717050923876,
+      "bookName": "Food Policy in the United States",
+      "id": "o_WFAg0"
+    },
+    {
+      "operation": "update",
+      "time": 1717050941038,
+      "bookName": "Food Chaining",
+      "id": "IirNyFo"
+    },
+    {
+      "operation": "update",
+      "time": 1717050942498,
+      "bookName": "Food Chaining",
+      "id": "Fx9AVOA"
+    },
+    {
+      "operation": "update",
+      "time": 1717050942902,
+      "bookName": "Food Chaining",
+      "id": "XOMmaWL"
+    },
+    {
+      "operation": "update",
+      "time": 1717050944701,
+      "bookName": "TELL THE TRUTH AS IT IS",
+      "id": "BITGBEj"
+    },
+    {
+      "operation": "update",
+      "time": 1717050947979,
+      "bookName": "Food and Nutrition Economics",
+      "id": "jPz6D9f"
+    },
+    {
+      "operation": "update",
+      "time": 1717050949085,
+      "bookName": "Food and Nutrition Economics",
+      "id": "5Z0Nfe_"
+    },
+    {
+      "operation": "update",
+      "time": 1717050950045,
+      "bookName": "Food and Nutrition Economics",
+      "id": "2j5V265"
+    },
+    {
+      "operation": "update",
+      "time": 1717050952085,
+      "bookName": "The State of Food Insecurity in Lusaka, Zambia",
+      "id": "QtX2KRm"
+    },
+    {
+      "operation": "delete",
+      "time": 1717050955173,
+      "id": "AwsL2nq"
+    },
+    {
+      "operation": "update",
+      "time": 1717050984096,
+      "bookName": "Proteins in Food Processing",
+      "id": "2D3XNcp"
+    },
+    {
+      "operation": "update",
+      "time": 1717050990077,
+      "bookName": "Food and Nutrition Economics",
+      "id": "JRGtpz1"
+    },
+    {
+      "operation": "update",
+      "time": 1717050995697,
+      "bookName": "Food Chaining",
+      "id": "Z_DvYuT"
+    },
+    {
+      "operation": "update",
+      "time": 1717050996151,
+      "bookName": "Food Chaining",
+      "id": "517iptD"
+    },
+    {
+      "operation": "update",
+      "time": 1717050997688,
+      "bookName": "Food Chaining",
+      "id": "Er3iW3m"
+    },
+    {
+      "operation": "delete",
+      "time": 1717051000446,
+      "id": "QYm76Fn"
+    },
+    {
+      "operation": "update",
+      "time": 1717051043891,
+      "bookName": "Muggles and Magic",
+      "id": "M8TBkSb"
+    },
+    {
+      "operation": "update",
+      "time": 1717051088523,
+      "bookName": "Muggles and Magic",
+      "id": "INu7d-1"
+    },
+    {
+      "operation": "update",
+      "time": 1717051090052,
+      "bookName": "Muggles and Magic",
+      "id": "hUIGzUo"
+    },
+    {
+      "operation": "create",
+      "time": 1717052295653,
+      "bookName": "jnjjkn",
+      "id": "cZDnabY"
+    },
+    {
+      "operation": "create",
+      "time": 1717052326731,
+      "bookName": "חנ",
+      "id": "2X_FcUt"
+    },
+    {
+      "operation": "delete",
+      "time": 1717052525904,
+      "id": "ZTooaNm"
+    },
+    {
+      "operation": "delete",
+      "time": 1717052535499,
+      "id": "XIw1P-Z"
+    },
+    {
+      "operation": "delete",
+      "time": 1717052678895,
+      "id": "oFY3Gqg"
+    },
+    {
+      "operation": "create",
+      "time": 1717052729139,
+      "bookName": "ח",
+      "id": "sVm7Lda"
+    },
+    {
+      "operation": "delete",
+      "time": 1717052732315,
+      "id": "O7bP_u9"
+    },
+    {
+      "operation": "update",
+      "time": 1717052775589,
+      "bookName": "The Ultimate Harry Potter and Philosophy",
+      "id": "Hmd6J1-"
+    },
+    {
+      "operation": "update",
+      "time": 1717052781440,
+      "bookName": "The Bible Out of the Pew",
+      "id": "xERLAa0"
+    },
+    {
+      "operation": "update",
+      "time": 1717052923500,
+      "bookName": "Food Nations",
+      "id": "aOJw0BB"
+    },
+    {
+      "operation": "update",
+      "time": 1717052928574,
+      "bookName": "Imagining Sustainable Food Systems",
+      "id": "s7IlyCD"
+    },
+    {
+      "operation": "delete",
+      "time": 1717053094869,
+      "id": "E6OMk6K"
+    },
+    {
+      "operation": "create",
+      "time": 1717054977073,
+      "bookName": "Complete Book of Bible Quotations",
+      "id": "gbK5Hpu"
+    },
+    {
+      "operation": "create",
+      "time": 1717055008067,
+      "bookName": "NASA Tech Briefs",
+      "id": "Cw1ESsO"
+    },
+    {
+      "operation": "create",
+      "time": 1717055013514,
+      "bookName": "The Linking Rings",
+      "id": "2_DRIzd"
+    },
+    {
+      "operation": "update",
+      "time": 1717055029663,
+      "bookName": "Food Nations",
+      "id": "V0YzV8X"
+    },
+    {
+      "operation": "update",
+      "time": 1717055030597,
+      "bookName": "Food Nations",
+      "id": "_-3BnOB"
+    },
+    {
+      "operation": "update",
+      "time": 1717055031664,
+      "bookName": "Food Nations",
+      "id": "0H-8xHk"
+    },
+    {
+      "operation": "update",
+      "time": 1717055035701,
+      "bookName": "Food Nations",
+      "id": "w3_XOzg"
+    },
+    {
+      "operation": "update",
+      "time": 1717055039297,
+      "bookName": "Food Nations",
+      "id": "itDcspC"
+    },
+    {
+      "operation": "delete",
+      "time": 1717055042855,
+      "id": "T2D6nqc"
+    },
+    {
+      "operation": "update",
+      "time": 1717055047282,
+      "bookName": "Food Nations",
+      "id": "BGCcdZg"
+    },
+    {
+      "operation": "update",
+      "time": 1717055047912,
+      "bookName": "Food Nations",
+      "id": "mczRuRk"
+    },
+    {
+      "operation": "update",
+      "time": 1717055049096,
+      "bookName": "Food Nations",
+      "id": "Y9Ds50V"
+    },
+    {
+      "operation": "update",
+      "time": 1717055050438,
+      "bookName": "Food Nations",
+      "id": "MsyX87G"
+    },
+    {
+      "operation": "delete",
+      "time": 1717055056585,
+      "id": "e_LVfcU"
+    },
+    {
+      "operation": "create",
+      "time": 1717055110131,
+      "bookName": "gry5se",
+      "id": "bmdaPMJ"
+    },
+    {
+      "operation": "create",
+      "time": 1717055132465,
+      "bookName": "dweg",
+      "id": "YZ5wcMJ"
+    },
+    {
+      "operation": "delete",
+      "time": 1717055137233,
+      "id": "GPm4qwW"
+    },
+    {
+      "operation": "delete",
+      "time": 1717055143583,
+      "id": "aw_Df1j"
+    },
+    {
+      "operation": "delete",
+      "time": 1717055151334,
+      "id": "lji10sT"
+    },
+    {
+      "operation": "delete",
+      "time": 1717055235617,
+      "id": "pc0VFhA"
+    },
+    {
+      "operation": "update",
+      "time": 1717057865731,
+      "bookName": "Imagining Sustainable Food Systems",
+      "id": "Z9zPqTv"
+    },
+    {
+      "operation": "update",
+      "time": 1717057867833,
+      "bookName": "Imagining Sustainable Food Systems",
+      "id": "cutSGyh"
+    },
+    {
+      "operation": "update",
+      "time": 1717057925049,
+      "bookName": "Imagining Sustainable Food Systems",
+      "id": "QzjJo6x"
+    },
+    {
+      "operation": "update",
+      "time": 1717057928357,
+      "bookName": "Imagining Sustainable Food Systems",
+      "id": "NCkQpzo"
+    },
+    {
+      "operation": "update",
+      "time": 1717057929166,
+      "bookName": "Imagining Sustainable Food Systems",
+      "id": "CgUoi6Z"
+    },
+    {
+      "operation": "update",
+      "time": 1717057930968,
+      "bookName": "Imagining Sustainable Food Systems",
+      "id": "edM3E3B"
+    },
+    {
+      "operation": "update",
+      "time": 1717057933091,
+      "bookName": "Imagining Sustainable Food Systems",
+      "id": "T0NAtWC"
+    },
+    {
+      "operation": "update",
+      "time": 1717057958098,
+      "bookName": "Food Chemistry",
+      "id": "_JeyzPC"
+    },
+    {
+      "operation": "update",
+      "time": 1717057959172,
+      "bookName": "Food Chemistry",
+      "id": "qxPs-Wn"
+    },
+    {
+      "operation": "update",
+      "time": 1717057959638,
+      "bookName": "Food Chemistry",
+      "id": "ZY4GbAI"
+    },
+    {
+      "operation": "create",
+      "time": 1717058001208,
+      "bookName": "Harry Potter and the Deathly Hallows",
+      "id": "9U4tV2m"
+    },
+    {
+      "operation": "update",
+      "time": 1717058020022,
+      "bookName": "Harry Potter and the Deathly Hallows",
+      "id": "I8VnguI"
+    },
+    {
+      "operation": "delete",
+      "time": 1717058024766,
+      "id": "dk9NTLI"
+    },
+    {
+      "operation": "create",
+      "time": 1717058111550,
+      "bookName": "regwe",
+      "id": "mtxkp7C"
+    },
+    {
+      "operation": "create",
+      "time": 1717058160858,
+      "bookName": "Re-Reading Harry Potter",
+      "id": "2J4pkUN"
     }
   ]
 }

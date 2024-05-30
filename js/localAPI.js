@@ -31,7 +31,7 @@ axios.interceptors.response.use(
   }
 );
 function getAllHistroy() {
-  return axios.get(LOCAL_URL + "history?_sort=-time");
+  return axios.get(LOCAL_URL + "history?_sort=time&_order=desc");
 }
 function addHistoryAction(action) {
   return axios.post(LOCAL_URL + "history", action);
@@ -63,6 +63,6 @@ function changeBookFavorite(id, favorite) {
     favorite: favorite ? "false" : "true",
   });
 }
-function deleteBookFromLirary(id) {
+function deleteLocalBook(id) {
   return axios.delete(`${LOCAL_URL}books/${id}`);
 }
