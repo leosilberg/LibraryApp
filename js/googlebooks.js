@@ -26,12 +26,12 @@ async function search() {
       });
       newBookDiv.className = "book__card";
       newBookDiv.innerHTML = `
-      <div class="book__hidden-container ">
+      <div class="book__hidden-container " onclick="bookClicked('${book.id}')">
     <img class="book__image-card" src="${
       data.imageLinks ? data.imageLinks.thumbnail : ""
-    }" onclick="bookClicked('${book.id}')"/>
+    }" />
     <div class="book__actions-card">
-    <i class="fa-solid fa-plus" onclick="addBook('${book.id}')"></i>
+    <i class="fa-solid fa-plus" onclick="addBook(event,'${book.id}')"></i>
     </div>
     </div>
     <h3 class="book__name-card">${data.title}</h3>
@@ -60,7 +60,9 @@ function bookClicked(id) {
   location.assign(`/bookdetails.html?bookID=${id}&type=google`);
 }
 
-async function addBook(id) {
+async function addBook(event, id) {
+  event.preventDefault();
+  event.stopPropagation();
   try {
     const result = await getGoogleBook(id);
     const book = mapToJsonBook(result);
